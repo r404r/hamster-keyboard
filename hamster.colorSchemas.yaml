@@ -1,0 +1,269 @@
+keyboard:
+
+  # enableColorSchema: true
+  # useColorSchemaForLight: 'Ambilight_light' # → 启用的颜色主题→日
+  # useColorSchemaForDark: 'forests_dark'   # → 启用的颜色主题→夜
+
+  # ↓ 主题
+  colorSchemas:
+  - schemaName: Ambilight_dark                
+    name: 流光溢彩.夜／Ambilight_dark              # ← 命名
+    author: YG777                                # 作者
+    # ↓ 候选栏配色参数
+    text_color: '0x52A3FF'                       # → (组字区文字颜色)
+    hilited_candidate_text_color: '0x000000'     # ➡ (候选栏首选文字颜色)。选中文字颜色，第一侯选字➡高亮（選中）候選字字体。
+    hilited_comment_text_color:                  # → (候选栏首选文字 Comment 信息颜色)
+    hilited_candidate_back_color: '0x52A3FF'     # ➡ (候选栏首选文字区域背景色),选中底色 ➡高亮（選中）候選詞底色
+    candidate_text_color: '0x00FF00'             # ➡ (候选栏次选文字颜色),文字颜色，键盘字符颜色
+    comment_text_color:                          # →（候选栏次选文字 Comment 信息颜色）
+    # ↓ 键盘配色
+    back_color: '0x55000000'                     # ➡（键盘背景色）底色，键盘整个底色。
+    # ↓ 按键配色参数
+    button_back_color: '0x696969'                # →（按键背景色）
+    button_pressed_back_color: '0x8B8878'        # →（按下时按键背景色）按下时按键背景色  0x32CD32
+    button_front_color: '0xFFFFFF'               # → (按键上文字颜色)按键上文字颜色   
+    button_pressed_front_color: '0x00FF00'       # →（按下时按键上文字颜色）按下时按键上文字颜色 有气泡时无效⬅
+    button_swipe_front_color: '0xFFF500'         # →（按键上划动手势文字颜色）按键上划动手势文字的颜色
+    corner_radius: 5                             # →（按键的圆角半径）
+    border_color: '0xE54E595A'                   # →（按键边框色）
+
+  - schemaName: Ambilight_light                
+    name: 流光溢彩.日／Ambilight_light             # ← 命名
+    author: YG777                                # 作者
+    # ↓ 候选栏配色参数
+    text_color: '0x52A3FF'                       # → (组字区文字颜色)
+    hilited_candidate_text_color: '0x000000'     # ➡ (候选栏首选文字颜色)。选中文字颜色，第一侯选字➡高亮（選中）候選字字体。
+    hilited_comment_text_color:                  # → (候选栏首选文字 Comment 信息颜色)
+    hilited_candidate_back_color: '0x52A3FF'     # ➡ (候选栏首选文字区域背景色),选中底色 ➡高亮（選中）候選詞底色
+    candidate_text_color: '0x006400'             # ➡ (候选栏次选文字颜色),文字颜色，键盘字符颜色
+    comment_text_color:                          # →（候选栏次选文字 Comment 信息颜色）
+    # ↓ 键盘配色
+    back_color: '0x55FFFFFF'                     # ➡（键盘背景色）底色，键盘整个底色。黑灰。RGB
+    # ↓ 按键配色参数
+    button_back_color: '0xBEBEBE'                # →（按键背景色）
+    button_pressed_back_color: '0xDCDCDC'        # →（按下时按键背景色）按下时按键背景色  0x32CD32
+    button_front_color: '0x000000'               # → (按键上文字颜色)按键上文字颜色   
+    button_pressed_front_color: '0x00FF00'       # →（按下时按键上文字颜色）按下时按键上文字颜色 有气泡时无效⬅
+    button_swipe_front_color: '0x006400'         # →（按键上划动手势文字颜色）按键上划动手势文字的颜色
+    corner_radius: 5                             # →（按键的圆角半径）
+    border_color: '0xE54E595A'                   # →（按键边框色）
+
+  - schemaName: forest_dark                
+    name: 森林集.夜／forest_dark                   # ← 命名
+    author: YG777                                # 作者
+    # ↓ 候选栏配色参数
+    text_color: '0x52A3FF'                       # → (组字区文字颜色)
+    hilited_candidate_text_color: '0x000000'     # ➡ (候选栏首选文字颜色)。选中文字颜色，第一侯选字➡高亮（選中）候選字字体。
+    hilited_comment_text_color:                  # → (候选栏首选文字 Comment 信息颜色)
+    hilited_candidate_back_color: '0x69B259'     # ➡ (候选栏首选文字区域背景色),选中底色 ➡高亮（選中）候選詞底色
+    candidate_text_color: '0x52A3FF'             # ➡ (候选栏次选文字颜色),文字颜色，键盘字符颜色
+    comment_text_color:                          # →（候选栏次选文字 Comment 信息颜色）
+    # ↓ 键盘配色
+    back_color: '0x55010101'                     # ➡（键盘背景色）底色，键盘整个底色。黑灰。RGB
+    # ↓ 按键配色参数
+    button_back_color: '0xBEBEBE'                # →（按键背景色）
+    button_pressed_back_color: '0x6B6B6B'        # →（按下时按键背景色）按下时按键背景色  0x32CD32
+    button_front_color: '0x000000'               # → (按键上文字颜色)按键上文字颜色   
+    button_pressed_front_color: '0x69B259'       # →（按下时按键上文字颜色）按下时按键上文字颜色 有气泡时无效⬅
+    button_swipe_front_color: '0x2F4F4F'         # →（按键上划动手势文字颜色）按键上划动手势文字的颜色
+    corner_radius: 3                             # →（按键的圆角半径）
+    border_color: '0x2A1F00'                     # →（按键边框色）
+
+  - schemaName: forest_light                
+    name: 森林集.日／forest_light                  # ← 命名
+    author: YG777                                # 作者
+    # ↓ 候选栏配色参数
+    text_color: '0x52A3FF'                       # → (组字区文字颜色)
+    hilited_candidate_text_color: '0x000000'     # ➡ (候选栏首选文字颜色)。选中文字颜色，第一侯选字➡高亮（選中）候選字字体。
+    hilited_comment_text_color:                  # → (候选栏首选文字 Comment 信息颜色)
+    hilited_candidate_back_color: '0xA7E778'     # ➡ (候选栏首选文字区域背景色),选中底色 ➡高亮（選中）候選詞底色
+    candidate_text_color: '0x000000'             # ➡ (候选栏次选文字颜色),文字颜色，键盘字符颜色
+    comment_text_color:                          # →（候选栏次选文字 Comment 信息颜色）
+    # ↓ 键盘配色
+    back_color: '0x55FFFFFF'                     # ➡（键盘背景色）底色，键盘整个底色。黑灰。RGB
+    # ↓ 按键配色参数
+    button_back_color: '0xBEBEBE'                # →（按键背景色）
+    button_pressed_back_color: '0xA7E778'        # →（按下时按键背景色）按下时按键背景色  0x32CD32
+    button_front_color: '0x000000'               # → (按键上文字颜色)按键上文字颜色   
+    button_pressed_front_color: '0xB5E61D'       # →（按下时按键上文字颜色）按下时按键上文字颜色 有气泡时无效⬅
+    button_swipe_front_color: '0x2F4F4F'         # →（按键上划动手势文字颜色）按键上划动手势文字的颜色
+    corner_radius: 3                             # →（按键的圆角半径）
+    border_color: '0x2A1F00'                     # →（按键边框色）      
+
+  - schemaName: apple_dark                
+    name: 苹果绿.夜／apple_dark                    # ← 命名
+    author: YG777                                # 作者
+    # ↓ 候选栏配色参数
+    text_color: '0x52A3FF'                       # → (组字区文字颜色)
+    hilited_candidate_text_color: '0x000000'     # ➡ (候选栏首选文字颜色)。选中文字颜色，第一侯选字➡高亮（選中）候選字字体。
+    hilited_comment_text_color:                  # → (候选栏首选文字 Comment 信息颜色)
+    hilited_candidate_back_color: '0x52A3FF'     # ➡ (候选栏首选文字区域背景色),选中底色 ➡高亮（選中）候選詞底色
+    candidate_text_color: '0x00FF00'             # ➡ (候选栏次选文字颜色),文字颜色，键盘字符颜色
+    comment_text_color:                          # →（候选栏次选文字 Comment 信息颜色）
+    # ↓ 键盘配色
+    back_color: '0x55010101'                     # ➡（键盘背景色）底色，键盘整个底色。黑灰。RGB
+    # ↓ 按键配色参数
+    button_back_color: '0x8B8989'                # →（按键背景色）
+    button_pressed_back_color: '0x006400'        # →（按下时按键背景色）按下时按键背景色  0x32CD32
+    button_front_color: '0x006400'               # → (按键上文字颜色)按键上文字颜色   
+    button_pressed_front_color: '0xB5E61D'       # →（按下时按键上文字颜色）按下时按键上文字颜色
+    button_swipe_front_color: '0xFFFF00'         # →（按键上划动手势文字颜色）按键上划动手势文字的颜色
+    corner_radius: 5                             # →（按键的圆角半径）
+    border_color: '0x2A1F00'                   # →（按键边框色）
+
+  - schemaName: Razer_dark                       # 黑底字桔 候选词 绿字黑
+    name: 雷蛇.夜／Razer                          # ← 命名
+    author: YG777                                # 作者
+    # ↓ 候选栏配色参数
+    text_color: '0x52A3FF'                       # → (组字区文字颜色)
+    hilited_candidate_text_color: '0xFF434347'     # ➡ (候选栏首选文字颜色)。选中文字颜色，第一侯选字➡高亮（選中）候選字字体。
+    hilited_comment_text_color:                  # → (候选栏首选文字 Comment 信息颜色)
+    hilited_candidate_back_color: '0x77B107'     # ➡ (候选栏首选文字区域背景色),选中底色 ➡高亮（選中）候選詞底色
+    candidate_text_color: '0x52A3FF'             # ➡ (候选栏次选文字颜色),文字颜色，键盘字符颜色，此为桔色
+    comment_text_color:                          # →（候选栏次选文字 Comment 信息颜色）
+    # ↓ 键盘配色
+    back_color: '0x55010101'                     # ➡（键盘背景色）底色，键盘整个底色。黑灰。RGB
+    # ↓ 按键配色参数
+    button_back_color: '0x676767'                # →（按键背景色）
+    button_pressed_back_color: '0x34E618'        # →（按下时按键背景色）按下时按键背景色
+    button_front_color: '0x34E618'               # → (按键上文字颜色)按键上文字颜色 
+    button_pressed_front_color: '0xB5E61D'       # →（按下时按键上文字颜色）按下时按键上文字颜色
+    button_swipe_front_color: '0xB5E61D'         # →（按键上划动手势文字颜色）按键上划动手势文字的颜色
+    corner_radius: 7                             # →（按键的圆角半径）
+    border_color: '0x2A1F00'                     # →（按键边框色）      ）      
+
+  - schemaName: blue_dark                           # 黑底字桔 候选词 绿字黑
+    name: 幻影蓝.夜／phantom blue               # ← 命名
+    author: YG777                                # 作者
+    # ↓ 候选栏配色参数
+    text_color: '0x52A3FF'                       # → (组字区文字颜色)
+    hilited_candidate_text_color: '0xFFFFFF'     # ➡ (候选栏首选文字颜色)。选中文字颜色，第一侯选字➡高亮（選中）候選字字体。
+    hilited_comment_text_color:                  # → (候选栏首选文字 Comment 信息颜色)
+    hilited_candidate_back_color: '0x77B107'     # ➡ (候选栏首选文字区域背景色),选中底色 ➡高亮（選中）候選詞底色
+    candidate_text_color: '0x52A3FF'             # ➡ (候选栏次选文字颜色),文字颜色，键盘字符颜色，此为桔色
+    comment_text_color:                          # →（候选栏次选文字 Comment 信息颜色）
+    # ↓ 键盘配色
+    back_color: '0x55010101'                     # ➡（键盘背景色）底色，键盘整个底色。黑灰。RGB
+    # ↓ 按键配色参数
+    button_back_color: '0x676767'                # →（按键背景色）
+    button_pressed_back_color: '0xFF7648'        # →（按下时按键背景色）按下时按键背景色
+    button_front_color: '0xD1CE00'               # → (按键上文字颜色)按键上文字颜色 
+    button_pressed_front_color: '0xB5E61D'       # →（按下时按键上文字颜色）按下时按键上文字颜色
+    button_swipe_front_color: '0xB5E61D'         # →（按键上划动手势文字颜色）按键上划动手势文字的颜色
+    corner_radius: 7                             # →（按键的圆角半径）
+    border_color: '0x2F4F4F'                     # →（按键边框色）      
+
+  - schemaName: black_dark                       # 黑底字桔 候选词 绿字黑
+    name: 果黑.夜／Fruit black                    # ← 命名
+    author: YG777                                # 作者
+    # ↓ 候选栏配色参数
+    text_color: '0x52A3FF'                       # → (组字区文字颜色)
+    hilited_candidate_text_color: '0xFFFFFF'     # ➡ (候选栏首选文字颜色)。选中文字颜色，第一侯选字➡高亮（選中）候選字字体。
+    hilited_comment_text_color:                  # → (候选栏首选文字 Comment 信息颜色)
+    hilited_candidate_back_color: '0x77B107'     # ➡ (候选栏首选文字区域背景色),选中底色 ➡高亮（選中）候選詞底色
+    candidate_text_color: '0x00FF7F'             # ➡ (候选栏次选文字颜色),文字颜色，键盘字符颜色，此为绿
+    comment_text_color:                          # →（候选栏次选文字 Comment 信息颜色）
+    # ↓ 键盘配色
+    back_color: '0x55010101'                     # ➡（键盘背景色）底色，键盘整个底色。黑灰。RGB
+    # ↓ 按键配色参数
+    button_back_color: '0xCDC9C9'                # →（按键背景色）
+    button_pressed_back_color: '0xF45F28'        # →（按下时按键背景色）按下时按键背景色
+    button_front_color: '0x4F4F2F'               # → (按键上文字颜色)按键上文字颜色 
+    button_pressed_front_color: '0x000000'       # →（按下时按键上文字颜色）按下时按键上文字颜色
+    button_swipe_front_color: '0x000000'         # →（按键上划动手势文字颜色）按键上划动手势文字的颜色
+    corner_radius: 7                             # →（按键的圆角半径）
+    border_color: '0x2A1F00'                     # →（按键边框色）      
+
+  - schemaName: blizzard_dark
+    name: 暴雪・夜／blizzard Dark
+    author: YG777
+    back_color: 0x55010101                 # → 键盘背景色
+    button_back_color: 0xF0352A0A          # → 按键背景色
+    button_pressed_back_color: 0x1973FF    # → 按下时按键背景色
+    button_front_color: 0x7389FF           # → 按键上文字颜色
+    button_pressed_front_color: 0x7389FF   # → 按下时按键上文字颜色
+    button_swipe_front_color: 0x7389FF     # → 按键上划动手势文字的颜色
+    corner_radius: 5                       # → 按键圆角半径
+    border_color: 0x2A1F00                 # → 按键边框颜色
+    text_color: 0x756E5D                   # → 组字区域文字颜色
+    hilited_candidate_back_color: 0xFFA352 # → 候选栏首选文字区域背景色
+    hilited_candidate_text_color: 0xFFFFFF # → 候选栏首选文字颜色
+    hilited_comment_text_color: 0x289989   # → 候选栏首选文字 Comment 信息颜色
+    candidate_text_color: 0x52A3FF         # → 候选栏次选文字颜色
+    comment_text_color: 0xC38AFF           # → 候选栏次选文字 Comment 信息颜色
+
+  - schemaName: blizzard_light
+    name: 暴雪・日／blizzard Light
+    author: YG777
+    back_color: 0x55E5F6FB                 # → 键盘背景色
+    button_back_color: 0xF0E5F6FB          # → 按键背景色
+    button_pressed_back_color: 0xFF7648    # → 按下时按键背景色
+    button_front_color: 0x595E00           # → 按键上文字颜色
+    button_pressed_front_color: 0x595E00   # → 按下时按键上文字颜色
+    button_swipe_front_color: 0x595E00     # → 按键上划动手势文字的颜色
+    corner_radius: 5                       # → 按键圆角半径
+    border_color: 0xEDFFFF                 # → 按键边框颜色
+    text_color: 0xA1A095                   # → 组字区域文字颜色
+    hilited_candidate_back_color: 0xD7E8ED # → 候选栏首选文字区域背景色
+    hilited_candidate_text_color: 0x3942CB # → 候选栏首选文字颜色
+    hilited_comment_text_color: 0x8144C2   # → 候选栏首选文字 Comment 信息颜色
+    candidate_text_color: 0x595E00         # → 候选栏次选文字颜色
+    comment_text_color: 0x005947           # → 候选栏次选文字 Comment 信息颜色 
+
+  - schemaName: Magic Keyboard_light             # 黑底字桔 候选词 绿字黑
+    name: 苹果键盘.日／Magic Keyboard              # ← 命名
+    author: YG777                                # 作者
+    # ↓ 候选栏配色参数
+    text_color: '0x13458B'                       # → (组字区文字颜色)
+    hilited_candidate_text_color: '0x000000'     # ➡ (候选栏首选文字颜色)。选中文字颜色，第一侯选字➡高亮（選中）候選字字体。
+    hilited_comment_text_color:                  # → (候选栏首选文字 Comment 信息颜色)
+    hilited_candidate_back_color: '0x00FF00'     # ➡ (候选栏首选文字区域背景色),选中底色 ➡高亮（選中）候選詞底色
+    candidate_text_color: '0x13458B'             # ➡ (候选栏次选文字颜色),文字颜色，键盘字符颜色，此为荧光绿
+    comment_text_color:                          # →（候选栏次选文字 Comment 信息颜色）
+    # ↓ 键盘配色
+    back_color: '0x55BEBEBE'                     # ➡（键盘背景色）底色，键盘整个底色。白灰。RGB
+    # ↓ 按键配色参数
+    button_back_color: '0xFAFAFF'                # →（按键背景色）
+    button_pressed_back_color: '0xFF7648'        # →（按下时按键背景色）按下时按键背景色
+    button_front_color: '0x000000'               # → (按键上文字颜色)按键上文字颜色 
+    button_pressed_front_color: '0xB5E61D'       # →（按下时按键上文字颜色）按下时按键上文字颜色
+    button_swipe_front_color: '0x13458B'         # →（按键上划动手势文字颜色）按键上划动手势文字的颜色
+    corner_radius: 7                             # →（按键的圆角半径）
+    border_color: '0x2A1F00'                     # →（按键边框色      
+
+  - schemaName: forests_dark
+    name: 微信黑.夜／forests_dark
+    author: YG777
+    back_color: '0x55000000'                     # ➡（键盘背景色）底色，键盘整个底色。
+    button_back_color: "0x59F5F5F5"              # →（按键背景色）
+    button_pressed_back_color: '0x8B8878'        # →（按下时按键背景色）按下时按键背景色
+    button_front_color: "0xFFFFFFFF"             # → (按键上文字颜色)按键上文字颜色   
+    button_pressed_front_color: '0x00FF00'       # →（按下时按键上文字颜色）按下时按键上文字颜色 有气泡时无效⬅
+    button_swipe_front_color: "0xFFEEE459"       # →（按键上划动手势文字颜色）按键上划动手势文字的颜色
+    corner_radius: 5                             # →（按键的圆角半径）
+    border_color: "0xE54E595A"                   # →（按键边框色）
+    text_color: "0xA5FAFAFA"                     # → (组字区文字颜色)
+    hilited_candidate_back_color: "0xA8E979"     # ➡ (候选栏首选文字区域背景色),选中底色 ➡高亮（選中）候選詞底色
+    hilited_candidate_text_color: "0xFF0D0D0D"   # ➡ (候选栏首选文字颜色)。选中文字颜色，第一侯选字➡高亮（選中）候選字字体
+    #hilited_comment_text_color: "0xFFF9F9F5"
+    candidate_text_color: "0x52A3FF"             # ➡ (候选栏次选文字颜色),文字颜色，键盘字符颜色
+    #comment_text_color: "0xFFFBFAF9"
+
+  - schemaName: forests_light
+    name: 微信黑.日／forests_light
+    author: YG777
+    back_color: '0x55FFFFFF'                     # ➡（键盘背景色）底色，键盘整个底色
+    button_back_color: "0x59F5F5F5"              # →（按键背景色）
+    button_pressed_back_color: "0xDCDCDC"        # →（按下时按键背景色）按下时按键背景色
+    button_front_color: "0x000000"               # → (按键上文字颜色)按键上文字颜色 
+    button_pressed_front_color: '0x00FF00'       # →（按下时按键上文字颜色）按下时按键上文字颜色 有气泡时无效⬅
+    button_swipe_front_color: "0x000000"         # →（按键上划动手势文字颜色）按键上划动手势文字的颜色
+    corner_radius: 5                             # →（按键的圆角半径）
+    border_color: "0xE54E595A"                   # →（按键边框色）
+    text_color: "0xA5FAFAFA"                     # → (组字区文字颜色)
+    hilited_candidate_back_color: "0xA8E979"     # ➡ (候选栏首选文字区域背景色),选中底色 ➡高亮（選中）候選詞底色
+    hilited_candidate_text_color: "0xFF0D0D0D"   # ➡ (候选栏首选文字颜色)。选中文字颜色，第一侯选字➡高亮（選中）候選字字体
+    #hilited_comment_text_color: "0xFFF9F9F5"
+    candidate_text_color: "0x52A3FF"             # ➡ (候选栏次选文字颜色),文字颜色，键盘字符颜色
+    #comment_text_color: "0xFFFBFAF9"
+
