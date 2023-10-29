@@ -1,0 +1,413 @@
+  keyboards:
+    - name: "天行键-数字"
+      rows:
+        - keys:
+          - action: shortCommand(#行首)
+            width: percentage(0.115)           
+            label: 🅢
+          - action: shortCommand(#剪切)
+            width: percentage(0.11)          
+            label: Cut
+          - action: shortCommand(#复制)
+            width: percentage(0.11)          
+            label: Copy
+          - action: shortCommand(#粘贴)
+            width: percentage(0.11)          
+            label: Paste
+          - action: character(-)
+            width: percentage(0.11)
+          - action: character(=)
+            width: percentage(0.11)
+          - action: shortCommand(#左移)
+            width: percentage(0.11)          
+            label: 🅛
+          - action: shortCommand(#右移)
+            width: percentage(0.11)          
+            label: 🅡
+          - action: shortCommand(#行尾)
+            width: percentage(0.115)          
+            label: 🅔
+          rowHeight: 38     
+
+        - keys:
+          - action: character(1)
+          - action: character(2)
+          - action: character(3)
+          - action: character(4)
+          - action: character(5)
+          - action: character(6)
+          - action: character(7)
+          - action: character(8)
+          - action: character(9)
+          - action: character(0)
+          rowHeight: 47
+          
+        - keys:
+          - action: symbol(-)
+          - action: character(/)
+          - action: symbol(：)
+          - action: character(（）)
+            label: '()'          
+          - action: character([])
+          - action: symbol(())
+          - action: character(+)
+          - action: character(@)
+          - action: character(“”)
+          - action: character(#)
+          rowHeight: 47
+          
+        - keys:
+          - action: keyboardType(classifySymbolic)
+            width:
+              portrait: inputPercentage(1.5)
+              landscape: inputPercentage(1.5)       
+            label: '更多'
+          - action: symbol(。)
+          - action: symbol(，)
+          - action: symbol(～)
+          - action: symbol(*)
+          - action: symbol(？)
+          - action: symbol(！)
+          - action: symbol(.)
+          - action: backspace
+            width:
+              portrait: inputPercentage(1.5)
+              landscape: inputPercentage(1.5)
+            swipe:
+              - direction: left
+                action: "shortCommand(#重输)"     
+          rowHeight: 47
+          
+        - keys:
+          - action: keyboardType(custom(天行键-中文))
+            width:
+              portrait: inputPercentage(1.5)
+              landscape: inputPercentage(1.5)      
+            label: '中'
+          - action: keyboardType(custom(天行键-English))
+            width:
+              portrait: inputPercentage(1)
+              landscape: inputPercentage(1)       
+            label: 'En'
+          - action: space
+            width:
+              portrait: inputPercentage(5.0)
+              landscape: inputPercentage(5.0)   
+            swipe:
+              - direction: up
+                action: "shortCommand(#次选上屏)"
+              - direction: right
+                action: "shortCommand(#三选上屏)"
+          - action: enter   
+            label: ' '
+            width:
+              portrait: inputPercentage(2.5)
+              landscape: inputPercentage(2.5)         
+              text: 
+            swipe:
+              - direction: up
+                action: "shortCommand(#换行)"
+          rowHeight: 47
+      buttonInsets: left(2.5),right(2.5),top(5.0),bottom(5.0)
+
+    - name: "天行键-中文"
+      rows:
+        - keys:
+          - action: shortCommand(#行首)
+            width: percentage(0.115)          
+            label: 🅢
+          - action: shortCommand(#剪切)
+            width: percentage(0.11)          
+            label: 剪切
+          - action: shortCommand(#复制)
+            width: percentage(0.11)          
+            label: 复制
+          - action: shortCommand(#粘贴)
+            width: percentage(0.11)          
+            label: 粘贴
+          - action: shortCommand(#繁简切换)
+            width: percentage(0.11)
+            label: 𝔉
+          - action: character(/)
+            width: percentage(0.11) 
+          - action: shortCommand(#左移)
+            width: percentage(0.11)          
+            label: 🅛
+          - action: shortCommand(#右移)
+            width: percentage(0.11)          
+            label: 🅡
+          - action: shortCommand(#行尾)
+            width: percentage(0.115)          
+            label: 🅔
+          rowHeight: 38
+    
+        - keys:
+          - action: character(q)
+            label: ' '
+          - action: character(w)
+            label: ' '
+          - action: character(e)
+            label: ' '
+          - action: character(r)
+            label: ' '
+          - action: character(t)
+            label: ' '
+          - action: character(y)
+            label: ' '
+          - action: character(u)
+            label: ' '
+          - action: character(i)
+            label: ' '
+          - action: character(o)
+            label: ' '
+          - action: character(p)
+            label: ' '
+          rowHeight: 47
+          
+        - keys:
+          - action: characterMargin(a)
+            width:
+              portrait: available
+              landscape: available
+          - action: character(a)
+            label: ' '
+          - action: character(s)
+            label: ' '
+          - action: character(d)
+            label: ' '
+          - action: character(f)
+            label: ' '
+          - action: character(g)
+            label: ' '
+          - action: character(h)
+            label: ' '
+          - action: character(j)
+            label: ' '
+          - action: character(k)
+            label: ' '
+          - action: character(l)
+            label: ' '
+          - action: characterMargin(l)
+            width:
+              portrait: available
+              landscape: available
+          rowHeight: 47
+          
+        - keys:
+          - action: shift
+            label: ' '
+            width: 
+              portrait: inputPercentage(1.5)
+              landscape: inputPercentage(1.5)
+          - action: character(z)
+            label: ' '
+            swipe:         
+              - direction: up
+                display: false
+                action: character(`)
+                processByRIME: true
+          - action: character(x) 
+            label: ' '
+          - action: character(c) 
+            label: ' '
+          - action: character(v)
+            label: ' '
+          - action: character(b)
+            label: ' '
+          - action: character(n)
+            label: ' '
+          - action: character(m)
+            label: ' '
+          - action: backspace
+            label: ' '
+            width:
+              portrait: inputPercentage(1.5)
+              landscape: inputPercentage(1.5)
+            swipe:
+              - direction: left
+                action: "shortCommand(#重输)" 
+          rowHeight: 47
+          
+        - keys:
+          - action: keyboardType(custom(天行键-数字))
+            width:
+              portrait: inputPercentage(1.5)
+              landscape: inputPercentage(1.5)          
+            label: ' '
+          - action: keyboardType(custom(天行键-English))
+            width: 
+              portrait: inputPercentage(1)
+              landscape: inputPercentage(1)    
+            label: 'En'
+          - action: space
+            width:
+              portrait: inputPercentage(5.0)
+              landscape: inputPercentage(5.0)          
+              label:
+            swipe:
+              - direction: up
+                action: "shortCommand(#次选上屏)"
+                dispaly: false
+              - direction: right
+                action: "shortCommand(#三选上屏)"
+                dispaly: false
+          - action: enter
+            width:
+              portrait: inputPercentage(2.5)
+              landscape: inputPercentage(2.5)          
+            label: ' '
+            swipe:
+              - direction: up
+                action: "shortCommand(#换行)"
+          rowHeight: 47
+      buttonInsets: left(2.5),right(2.5),top(5.0),bottom(5.0)
+
+    - name: "天行键-English"
+      rows:
+        - keys:
+          - action: shortCommand(#行首)
+            width: percentage(0.115)          
+            label: 🅢
+          - action: symbol(httP)
+            width: percentage(0.11)    
+          - action: symbol(:)
+            width: percentage(0.11)    
+          - action: symbol(.com)
+            width: percentage(0.11)   
+          - action: symbol(/)
+            width: percentage(0.11)
+          - action: symbol(@)
+            width: percentage(0.11)
+          - action: shortCommand(#左移)
+            width: percentage(0.11)          
+            label: 🅛
+          - action: shortCommand(#右移)
+            width: percentage(0.11)          
+            label: 🅡
+          - action: shortCommand(#行尾)
+            width: percentage(0.115)          
+            label: 🅔
+          rowHeight: 38
+    
+        - keys:
+          - action: symbol(q)
+            label: ' '
+          - action: symbol(w)
+            label: ' '
+          - action: symbol(e)
+            label: ' '
+          - action: symbol(r)
+            label: ' '
+          - action: symbol(t)
+            label: ' '
+          - action: symbol(y)
+            label: ' '
+          - action: symbol(u)
+            label: ' '
+          - action: symbol(i)
+            label: ' '
+          - action: symbol(o)
+            label: ' '
+          - action: symbol(p)
+            label: ' '
+          rowHeight: 47
+          
+        - keys:
+          - action: characterMargin(a)
+            width:
+              portrait: available
+              landscape: available
+          - action: symbol(a)
+            label: ' '
+          - action: symbol(s)
+            label: ' '
+          - action: symbol(d)
+            label: ' '
+          - action: symbol(f)
+            label: ' '
+          - action: symbol(g)
+            label: ' '
+          - action: symbol(h)
+            label: ' '
+          - action: symbol(j)
+            label: ' '
+          - action: symbol(k)
+            label: ' '
+          - action: symbol(l)
+            label: ' '
+          - action: characterMargin(l)
+            width:
+              portrait: available
+              landscape: available
+          rowHeight: 47
+          
+        - keys:
+          - action: shift
+            label: ' '
+            width: 
+              portrait: inputPercentage(1.5)
+              landscape: inputPercentage(1.5)
+          - action: symbol(z) 
+            label: ' '
+            swipe:         
+              - direction: up
+                display: false
+                action: symbol(`)
+          - action: symbol(x) 
+            label: ' '
+          - action: symbol(c) 
+            label: ' '
+          - action: symbol(v) 
+            label: ' '
+          - action: symbol(b)
+            label: ' '
+          - action: symbol(n)
+            label: ' '
+          - action: symbol(m)
+            label: ' '
+          - action: backspace
+            label: ' '
+            width:
+              portrait: inputPercentage(1.5)
+              landscape: inputPercentage(1.5)
+            swipe:
+              - direction: left
+                action: "shortCommand(#重输)" 
+          rowHeight: 47
+          
+        - keys:
+          - action: keyboardType(custom(天行键-数字))
+            width:
+              portrait: inputPercentage(1.5)
+              landscape: inputPercentage(1.5)          
+            label: ' '
+          - action: keyboardType(custom(天行键-中文))
+            width:
+              portrait: inputPercentage(1)
+              landscape: inputPercentage(1)     
+            label: '中'
+          - action: space
+            width:
+              portrait: inputPercentage(4.0)
+              landscape: inputPercentage(4.0)   
+            swipe:
+              - direction: up
+                action: "shortCommand(#次选上屏)"
+                dispaly: false
+              - direction: right
+                action: "shortCommand(#三选上屏)"
+                dispaly: false
+          - action: symbol(.)
+            width:
+              portrait: inputPercentage(1)
+              landscape: inputPercentage(1) 
+          - action: enter
+            width:
+              portrait: inputPercentage(2.5)
+              landscape: inputPercentage(2.5)          
+            label: " "
+            swipe:
+              - direction: up
+                action: "shortCommand(#换行)"
+          rowHeight: 47
+      buttonInsets: left(2.5),right(2.5),top(5.0),bottom(5.0)
