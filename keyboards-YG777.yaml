@@ -1,0 +1,3708 @@
+keyboards:
+  - name: 九宫
+    rows:
+      - keys:
+          - action: enter
+            width: percentage(0.15)
+            label: Raze®︎
+            swipe:
+              - action: shortCommand(#换行)
+                display: false
+                processByRIME: true
+                direction: up
+              - action: shortCommand(#换行)
+                display: false
+                processByRIME: true
+                direction: down
+          - action: backspace
+            width: percentage(0.15)
+            swipe:
+              - action: shortCommand(#重输)
+                display: false
+                processByRIME: true
+                direction: up
+              - action: shortCommand(#重输)
+                display: false
+                processByRIME: true
+                direction: down
+          - action: shortCommand(#粘贴)
+            width: percentage(0.14)
+            label: ✂︎
+            swipe:
+              - action: shortCommand(#剪切)
+                display: false
+                processByRIME: true
+                direction: up
+              - action: shortCommand(#复制)
+                display: false
+                processByRIME: true
+                direction: down
+          - action: keyboardType(custom(英文))
+            width: percentage(0.14)
+            label: 𓆩🀄️𓆪
+            swipe:
+              - action: keyboardType(custom(数字))
+                display: false
+                processByRIME: true
+                direction: up
+              - action: keyboardType(custom(符号))
+                display: false
+                processByRIME: true
+                direction: down
+          - action: shortCommand(#左移)
+            width: percentage(0.14)
+            label: 🔙
+            swipe:
+              - action: character(/)
+                display: false
+                processByRIME: true
+                direction: up
+              - action: character(/)
+                display: false
+                processByRIME: true
+                direction: down
+          - action: shortCommand(#右移)
+            width: percentage(0.14)
+            label: 🔜
+            swipe:
+              - action: character(;)
+                display: false
+                processByRIME: true
+                direction: up
+              - action: character(;)
+                display: false
+                processByRIME: true
+                direction: down
+          - action: character(`)
+            width: percentage(0.14)
+            label: 🔘
+        rowHeight: 44.4
+      - keys:
+          - action: character(+)
+            width: percentage(0.1)
+          - action: character(-)
+            width: percentage(0.1)
+          - action: character(1)
+            width: percentage(0.2)
+            swipe:
+              - action: character(壹)
+                label: 壹
+                display: false
+                processByRIME: true
+                direction: up
+              - action: character(一)
+                label: 一
+                display: false
+                processByRIME: true
+                direction: down
+          - action: character(2)
+            width: percentage(0.2)
+            swipe:
+              - action: character(貳)
+                label: 貳
+                display: false
+                processByRIME: true
+                direction: up
+              - action: character(二)
+                label: 二
+                display: false
+                processByRIME: true
+                direction: down
+          - action: character(3)
+            width: percentage(0.2)
+            swipe:
+              - action: character(叁)
+                label: 叁
+                display: false
+                processByRIME: true
+                direction: up
+              - action: character(三)
+                label: 三
+                display: false
+                processByRIME: true
+                direction: down
+          - action: character(（)
+            width: percentage(0.1)
+            swipe:
+              - action: character(佰)
+                label: 佰
+                display: false
+                processByRIME: true
+                direction: up
+          - action: character(）)
+            width: percentage(0.1)
+            swipe:
+              - action: character(仟)
+                label: 仟
+                display: false
+                processByRIME: true
+                direction: up
+        rowHeight: 56.4
+      - keys:
+          - action: character(*)
+            width: percentage(0.1)
+            label: ×
+          - action: character(/)
+            width: percentage(0.1)
+            label: ÷
+          - action: character(4)
+            width: percentage(0.2)
+            swipe:
+              - action: character(肆)
+                label: 肆
+                display: false
+                processByRIME: true
+                direction: up
+              - action: character(四)
+                label: 四
+                display: false
+                processByRIME: true
+                direction: down
+          - action: character(5)
+            width: percentage(0.2)
+            swipe:
+              - action: character(伍)
+                label: 伍
+                display: false
+                processByRIME: true
+                direction: up
+              - action: character(五)
+                label: 五
+                display: false
+                processByRIME: true
+                direction: down
+          - action: character(6)
+            width: percentage(0.2)
+            swipe:
+              - action: character(陸)
+                label: 陸
+                display: false
+                processByRIME: true
+                direction: up
+              - action: character(六)
+                label: 六
+                display: false
+                processByRIME: true
+                direction: down
+          - action: character(:)
+            width: percentage(0.1)
+            swipe:
+              - action: character(萬)
+                display: false
+                processByRIME: true
+                direction: up
+          - action: character(?)
+            width: percentage(0.1)
+            swipe:
+              - action: character(億)
+                label: 億
+                display: false
+                processByRIME: true
+                direction: up
+        rowHeight: 56.4
+      - keys:
+          - action: character(=)
+            width: percentage(0.2)
+          - action: character(7)
+            width: percentage(0.2)
+            swipe:
+              - action: character(柒)
+                label: 柒
+                display: false
+                processByRIME: true
+                direction: up
+              - action: character(七)
+                label: 七
+                display: false
+                processByRIME: true
+                direction: down
+          - action: character(8)
+            width: percentage(0.2)
+            swipe:
+              - action: character(捌)
+                label: 捌
+                display: false
+                processByRIME: true
+                direction: up
+              - action: character(八)
+                label: 八
+                display: false
+                processByRIME: true
+                direction: down
+          - action: character(9)
+            width: percentage(0.2)
+            swipe:
+              - action: character(玖)
+                label: 玖
+                display: false
+                processByRIME: true
+                direction: up
+              - action: character(九)
+                label: 九
+                display: false
+                processByRIME: true
+                direction: down
+          - action: tab
+            width: percentage(0.1)
+          - action: backspace
+            width: percentage(0.1)
+        rowHeight: 56.4
+      - keys:
+          - action: keyboardType(custom(中文))
+            width: percentage(0.2)
+            label: ⊰❉⊱
+            swipe:
+              - action: keyboardType(classifySymbolic)
+                display: false
+                processByRIME: true
+                direction: up
+              - action: keyboardType(custom(数字))
+                display: false
+                processByRIME: true
+                direction: down
+              - action: keyboardType(custom(数字))
+                display: false
+                processByRIME: true
+                direction: left
+              - action: keyboardType(custom(符号))
+                display: false
+                processByRIME: true
+                direction: right
+          - action: space
+            width: percentage(0.2)
+            label:
+              text: ___
+              loadingText: 九宫
+            swipe:
+              - action: character(，)
+                display: true
+                processByRIME: true
+                direction: left
+              - action: character(。)
+                display: true
+                processByRIME: true
+                direction: right
+          - action: character(0)
+            width: percentage(0.2)
+            swipe:
+              - action: character(零)
+                label: 零
+                display: false
+                processByRIME: true
+                direction: up
+              - action: character(零)
+                label: 零
+                display: false
+                processByRIME: true
+                direction: down
+          - action: character(.)
+            width: percentage(0.2)
+            label: •
+          - action: enter
+            width: percentage(0.2)
+            label: Return™︎
+            swipe:
+              - action: shortCommand(#换行)
+                display: false
+                processByRIME: true
+                direction: up
+              - action: shortCommand(#换行)
+                display: false
+                processByRIME: true
+                direction: down
+        rowHeight: 56.4
+    buttonInsets: left(3),bottom(4),top(8),right(3)
+  - name: 英文
+    rows:
+      - keys:
+          - action: enter
+            width: percentage(0.15)
+            label: Raze®︎
+            swipe:
+              - action: shortCommand(#换行)
+                display: false
+                processByRIME: true
+                direction: up
+              - action: shortCommand(#换行)
+                display: true
+                processByRIME: true
+                direction: down
+          - action: backspace
+            width: percentage(0.15)
+            swipe:
+              - action: shortCommand(#重输)
+                display: false
+                processByRIME: true
+                direction: up
+              - action: shortCommand(#重输)
+                display: false
+                processByRIME: true
+                direction: down
+          - action: shortCommand(#粘贴)
+            width: percentage(0.14)
+            label: ✂︎
+            swipe:
+              - action: shortCommand(#剪切)
+                display: false
+                processByRIME: true
+                direction: up
+              - action: shortCommand(#复制)
+                display: false
+                processByRIME: true
+                direction: down
+          - action: keyboardType(custom(中文))
+            width: percentage(0.14)
+            label: 𓆩🀄️𓆪
+            swipe:
+              - action: keyboardType(custom(数字))
+                display: false
+                processByRIME: true
+                direction: up
+              - action: keyboardType(custom(符号))
+                display: false
+                processByRIME: true
+                direction: down
+          - action: shortCommand(#左移)
+            width: percentage(0.14)
+            label: 🔙
+            swipe:
+              - action: character(/)
+                display: false
+                processByRIME: true
+                direction: up
+              - action: character(/)
+                display: false
+                processByRIME: true
+                direction: down
+          - action: shortCommand(#右移)
+            width: percentage(0.14)
+            label: 🔜
+            swipe:
+              - action: character(;)
+                display: false
+                processByRIME: true
+                direction: up
+              - action: character(;)
+                display: false
+                processByRIME: true
+                direction: down
+          - action: character(`)
+            width: percentage(0.14)
+            label: 🔘
+        rowHeight: 44.4
+      - keys:
+          - action: symbol(q)
+            width: percentage(0.1)
+          - action: symbol(w)
+            width: percentage(0.1)
+          - action: symbol(e)
+            width: percentage(0.1)
+          - action: symbol(r)
+            width: percentage(0.1)
+          - action: symbol(t)
+            width: percentage(0.1)
+          - action: symbol(y)
+            width: percentage(0.1)
+          - action: symbol(u)
+            width: percentage(0.1)
+          - action: symbol(i)
+            width: percentage(0.1)
+          - action: symbol(o)
+            width: percentage(0.1)
+            swipe:
+              - action: character(()
+                display: false
+                processByRIME: true
+                direction: up
+              - action: character(（)
+                display: false
+                processByRIME: true
+                direction: down
+          - action: symbol(p)
+            width: percentage(0.1)
+        rowHeight: 56.4
+      - keys:
+          - action: none
+            width: percentage(0.05)
+          - action: symbol(a)
+            width: percentage(0.1)
+          - action: symbol(s)
+            width: percentage(0.1)
+          - action: symbol(d)
+            width: percentage(0.1)
+          - action: symbol(f)
+            width: percentage(0.1)
+          - action: symbol(g)
+            width: percentage(0.1)
+          - action: symbol(h)
+            width: percentage(0.1)
+          - action: symbol(j)
+            width: percentage(0.1)
+          - action: symbol(k)
+            width: percentage(0.1)
+          - action: symbol(l)
+            width: percentage(0.1)
+          - action: none
+            width: percentage(0.05)
+        rowHeight: 56.4
+      - keys:
+          - action: shift
+            width: percentage(0.13)
+            swipe:
+              - action: keyboardType(custom(中文))
+                display: false
+                processByRIME: true
+                direction: up
+              - action: shortCommand(#繁简切换)
+                display: false
+                processByRIME: true
+                direction: down
+          - action: none
+            width: percentage(0.02)
+          - action: symbol(z)
+            width: percentage(0.1)
+          - action: symbol(x)
+            width: percentage(0.1)
+            swipe:
+              - action: shortCommand(#剪切)
+                display: true
+                processByRIME: true
+                direction: up
+          - action: symbol(c)
+            width: percentage(0.1)
+            swipe:
+              - action: shortCommand(#复制)
+                display: true
+                processByRIME: true
+                direction: up
+          - action: symbol(v)
+            width: percentage(0.1)
+            swipe:
+              - action: shortCommand(#粘贴)
+                display: true
+                processByRIME: true
+                direction: up
+          - action: symbol(b)
+            width: percentage(0.1)
+          - action: symbol(n)
+            width: percentage(0.1)
+          - action: symbol(m)
+            width: percentage(0.1)
+            swipe:
+              - action: shortCommand(#行首)
+                display: true
+                processByRIME: true
+                direction: left
+              - action: shortCommand(#行尾)
+                display: true
+                processByRIME: true
+                direction: right
+          - action: none
+            width: percentage(0.02)
+          - action: backspace
+            width: percentage(0.13)
+            swipe:
+              - action: shortCommand(#重输)
+                display: false
+                processByRIME: true
+                direction: up
+              - action: shortCommand(#重输)
+                display: false
+                processByRIME: true
+                direction: down
+        rowHeight: 56.4
+      - keys:
+          - action: keyboardType(custom(中文))
+            width: percentage(0.2)
+            label: ⊰❉⊱
+            swipe:
+              - action: keyboardType(classifySymbolic)
+                display: false
+                processByRIME: true
+                direction: up
+              - action: keyboardType(custom(数字))
+                display: false
+                processByRIME: true
+                direction: down
+              - action: keyboardType(custom(数字))
+                display: false
+                processByRIME: true
+                direction: left
+              - action: keyboardType(custom(符号))
+                display: false
+                processByRIME: true
+                direction: right
+          - action: character(？)
+            width: percentage(0.1)
+            label: "?"
+            swipe:
+              - action: character(！)
+                label: ！
+                display: false
+                processByRIME: true
+                direction: up
+              - action: character(！)
+                display: false
+                processByRIME: true
+                direction: down
+              - action: character(，)
+                display: true
+                processByRIME: true
+                direction: left
+              - action: character(。)
+                display: true
+                processByRIME: true
+                direction: right
+          - action: space
+            width: percentage(0.4)
+            label:
+              text: ________
+              loadingText: ___ 英文 ___
+            swipe:
+              - action: shortCommand(#左移)
+                display: true
+                processByRIME: true
+                direction: left
+              - action: shortCommand(#右移)
+                display: true
+                processByRIME: true
+                direction: right
+          - action: character(，)
+            width: percentage(0.1)
+            label: •
+            swipe:
+              - action: character(。)
+                label: 。
+                display: false
+                processByRIME: true
+                direction: up
+              - action: character(，)
+                display: false
+                processByRIME: true
+                direction: down
+          - action: enter
+            width: percentage(0.2)
+            label: Return™︎
+            swipe:
+              - action: shortCommand(#换行)
+                display: false
+                processByRIME: true
+                direction: up
+              - action: shortCommand(#换行)
+                display: false
+                processByRIME: true
+                direction: down
+        rowHeight: 56.4
+    buttonInsets: left(3),bottom(4),top(8),right(3)
+  - name: 中文
+    rows:
+      - keys:
+          - action: enter
+            width: percentage(0.15)
+            label: Raze®︎
+            swipe:
+              - action: shortCommand(#换行)
+                display: false
+                processByRIME: true
+                direction: up
+              - action: shortCommand(#换行)
+                display: false
+                processByRIME: true
+                direction: down
+          - action: backspace
+            width: percentage(0.15)
+            swipe:
+              - action: shortCommand(#重输)
+                display: false
+                processByRIME: true
+                direction: up
+              - action: shortCommand(#重输)
+                display: false
+                processByRIME: true
+                direction: down
+          - action: shortCommand(#粘贴)
+            width: percentage(0.14)
+            label: ✂︎
+            swipe:
+              - action: shortCommand(#剪切)
+                display: false
+                processByRIME: true
+                direction: up
+              - action: shortCommand(#复制)
+                display: false
+                processByRIME: true
+                direction: down
+              - action: tab
+                display: false
+                processByRIME: true
+                direction: left
+          - action: keyboardType(custom(英文))
+            width: percentage(0.14)
+            label: 𓆩🇬🇧𓆪
+            swipe:
+              - action: keyboardType(custom(数字))
+                display: false
+                processByRIME: true
+                direction: up
+              - action: keyboardType(custom(符号))
+                display: false
+                processByRIME: true
+                direction: down
+          - action: shortCommand(#左移)
+            width: percentage(0.14)
+            label: 🔙
+            swipe:
+              - action: character(/)
+                display: false
+                processByRIME: true
+                direction: up
+              - action: character(/)
+                display: false
+                processByRIME: true
+                direction: down
+          - action: shortCommand(#右移)
+            width: percentage(0.14)
+            label: 🔜
+            swipe:
+              - action: character(;)
+                display: false
+                processByRIME: true
+                direction: up
+              - action: character(;)
+                display: false
+                processByRIME: true
+                direction: down
+          - action: character(`)
+            width: percentage(0.14)
+            label: 🔘
+        rowHeight: 44.4
+      - keys:
+          - action: character(q)
+            width: percentage(0.1)
+            label: ǫ
+            swipe:
+              - action: character(！)
+                display: false
+                processByRIME: true
+                direction: up
+              - action: character(1)
+                display: true
+                processByRIME: true
+                direction: down
+          - action: character(w)
+            width: percentage(0.1)
+            label: ᴡ
+            swipe:
+              - action: character(@)
+                display: false
+                processByRIME: true
+                direction: up
+              - action: character(2)
+                display: true
+                processByRIME: true
+                direction: down
+          - action: character(e)
+            width: percentage(0.1)
+            label: ᴇ
+            swipe:
+              - action: character(#)
+                display: false
+                processByRIME: true
+                direction: up
+              - action: character(3)
+                display: true
+                processByRIME: true
+                direction: down
+          - action: character(r)
+            width: percentage(0.1)
+            label: ʀ
+            swipe:
+              - action: character(￥)
+                display: false
+                processByRIME: true
+                direction: up
+              - action: character(4)
+                display: true
+                processByRIME: true
+                direction: down
+          - action: character(t)
+            width: percentage(0.1)
+            label: ᴛ
+            swipe:
+              - action: character(%)
+                display: false
+                processByRIME: true
+                direction: up
+              - action: character(5)
+                display: true
+                processByRIME: true
+                direction: down
+          - action: character(y)
+            width: percentage(0.1)
+            label: ʏ
+            swipe:
+              - action: character(……)
+                label: ⌃
+                display: false
+                processByRIME: true
+                direction: up
+              - action: character(6)
+                display: true
+                processByRIME: true
+                direction: down
+          - action: character(u)
+            width: percentage(0.1)
+            label: ᴜ
+            swipe:
+              - action: character(&)
+                display: false
+                processByRIME: true
+                direction: up
+              - action: character(7)
+                display: true
+                processByRIME: true
+                direction: down
+          - action: character(i)
+            width: percentage(0.1)
+            label: ɪ
+            swipe:
+              - action: character(*)
+                display: false
+                processByRIME: true
+                direction: up
+              - action: character(8)
+                display: true
+                processByRIME: true
+                direction: down
+          - action: character(o)
+            width: percentage(0.1)
+            label: ᴏ
+            swipe:
+              - action: character(()
+                display: false
+                processByRIME: true
+                direction: up
+              - action: character(9)
+                display: true
+                processByRIME: true
+                direction: down
+          - action: character(p)
+            width: percentage(0.1)
+            label: ᴘ
+            swipe:
+              - action: character())
+                display: false
+                processByRIME: true
+                direction: up
+              - action: character(0)
+                display: true
+                processByRIME: true
+                direction: down
+              - action: symbol(晚安，好梦)
+                display: true
+                processByRIME: true
+                direction: left
+              - action: symbol(早安，KK)
+                display: true
+                processByRIME: true
+                direction: right
+        rowHeight: 56.4
+      - keys:
+          - action: none
+            width: percentage(0.05)
+          - action: character(a)
+            width: percentage(0.1)
+            label: ᴀ
+            swipe:
+              - action: character(@)
+                display: false
+                processByRIME: true
+                direction: down
+              - action: symbol(哈哈哈哈)
+                display: false
+                processByRIME: true
+                direction: left
+              - action: symbol(好嘞)
+                display: false
+                processByRIME: true
+                direction: right
+          - action: character(s)
+            width: percentage(0.1)
+            label: s
+          - action: character(d)
+            width: percentage(0.1)
+            label: ᴅ
+          - action: character(f)
+            width: percentage(0.1)
+            label: ғ̱
+          - action: character(g)
+            width: percentage(0.1)
+            label: ɢ
+          - action: character(h)
+            width: percentage(0.1)
+            label: ʜ
+            swipe:
+              - action: character(‹)
+                display: false
+                processByRIME: true
+                direction: up
+              - action: character(›)
+                display: false
+                processByRIME: true
+                direction: down
+          - action: character(j)
+            width: percentage(0.1)
+            label: "ᴊ̱  "
+            swipe:
+              - action: character(“)
+                label: ❝
+                display: false
+                processByRIME: true
+                direction: up
+              - action: character(”)
+                label: ❞
+                display: false
+                processByRIME: true
+                direction: down
+          - action: character(k)
+            width: percentage(0.1)
+            label: ᴋ
+            swipe:
+              - action: character(：)
+                label: ：
+                display: false
+                processByRIME: true
+                direction: up
+              - action: character(:)
+                label: ：
+                display: false
+                processByRIME: true
+                direction: down
+          - action: character(l)
+            width: percentage(0.1)
+            label: ʟ
+            swipe:
+              - action: character(-)
+                display: false
+                processByRIME: true
+                direction: up
+              - action: character(—)
+                display: false
+                processByRIME: true
+                direction: down
+              - action: symbol(嗯嗯)
+                display: false
+                processByRIME: true
+                direction: left
+              - action: symbol(好呐好呐)
+                display: false
+                processByRIME: true
+                direction: right
+          - action: none
+            width: percentage(0.05)
+        rowHeight: 56.4
+      - keys:
+          - action: shift
+            width: percentage(0.13)
+            swipe:
+              - action: shortCommand(#繁简切换)
+                display: false
+                processByRIME: true
+                direction: up
+              - action: shortCommand(#中英切换)
+                display: false
+                processByRIME: true
+                direction: down
+          - action: none
+            width: percentage(0.02)
+          - action: character(z)
+            width: percentage(0.1)
+            label: ᴢ
+            swipe:
+              - action: shortCommand(#RimeSwitcher)
+                display: false
+                processByRIME: true
+                direction: up
+              - action: character(~)
+                display: false
+                processByRIME: true
+                direction: down
+          - action: character(x)
+            width: percentage(0.1)
+            swipe:
+              - action: shortCommand(#剪切)
+                label: 剪切
+                display: false
+                processByRIME: true
+                direction: up
+          - action: character(c)
+            width: percentage(0.1)
+            label: ᴄ
+            swipe:
+              - action: shortCommand(#复制)
+                label: 复制
+                display: false
+                processByRIME: true
+                direction: up
+          - action: character(v)
+            width: percentage(0.1)
+            label: ᴠ
+            swipe:
+              - action: shortCommand(#粘贴)
+                label: 粘贴
+                display: false
+                processByRIME: true
+                direction: up
+          - action: character(b)
+            width: percentage(0.1)
+            label: ʙ
+            swipe:
+              - action: character({)
+                display: false
+                processByRIME: true
+                direction: up
+              - action: character(})
+                display: false
+                processByRIME: true
+                direction: down
+          - action: character(n)
+            width: percentage(0.1)
+            label: ɴ
+            swipe:
+              - action: character(+)
+                label: ⁺
+                display: false
+                processByRIME: true
+                direction: up
+              - action: character(=)
+                label: ⁼
+                display: false
+                processByRIME: true
+                direction: down
+          - action: character(m)
+            width: percentage(0.1)
+            label: ᴍ
+            swipe:
+              - action: shortCommand(#行首)
+                display: true
+                processByRIME: true
+                direction: up
+              - action: shortCommand(#行尾)
+                display: true
+                processByRIME: true
+                direction: down
+              - action: shortCommand(#行首)
+                display: true
+                processByRIME: true
+                direction: left
+              - action: shortCommand(#行尾)
+                display: true
+                processByRIME: true
+                direction: right
+          - action: none
+            width: percentage(0.02)
+          - action: backspace
+            width: percentage(0.13)
+            swipe:
+              - action: shortCommand(#重输)
+                display: false
+                processByRIME: true
+                direction: up
+              - action: shortCommand(#重输)
+                display: false
+                processByRIME: true
+                direction: down
+        rowHeight: 56.4
+      - keys:
+          - action: keyboardType(custom(九宫))
+            width: percentage(0.2)
+            label: ⊰❉⊱
+            swipe:
+              - action: keyboardType(classifySymbolic)
+                display: false
+                processByRIME: true
+                direction: up
+              - action: keyboardType(custom(数字))
+                display: false
+                processByRIME: true
+                direction: down
+              - action: keyboardType(custom(数字))
+                display: false
+                processByRIME: true
+                direction: left
+              - action: keyboardType(custom(符号))
+                display: false
+                processByRIME: true
+                direction: right
+          - action: character(？)
+            width: percentage(0.1)
+            label: "?"
+            swipe:
+              - action: character(！)
+                label: ！
+                display: false
+                processByRIME: true
+                direction: up
+              - action: character(！)
+                display: false
+                processByRIME: true
+                direction: down
+          - action: space
+            width: percentage(0.4)
+            label:
+              text: ________
+              loadingText: ___ 中文 ___
+            swipe:
+              - action: shortCommand(#次选上屏)
+                display: true
+                processByRIME: true
+                direction: up
+              - action: shortCommand(#三选上屏)
+                display: true
+                processByRIME: true
+                direction: down
+              - action: character(。)
+                label: ，
+                display: false
+                processByRIME: true
+                direction: left
+              - action: character(。)
+                label: 。
+                display: false
+                processByRIME: true
+                direction: right
+          - action: character(，)
+            width: percentage(0.1)
+            label: •
+            swipe:
+              - action: character(。)
+                label: ﹐
+                display: false
+                processByRIME: true
+                direction: up
+              - action: character(……)
+                display: false
+                processByRIME: true
+                direction: down
+          - action: enter
+            width: percentage(0.2)
+            label: Return™︎
+            swipe:
+              - action: shortCommand(#换行)
+                display: false
+                processByRIME: true
+                direction: up
+              - action: shortCommand(#换行)
+                display: false
+                processByRIME: true
+                direction: down
+        rowHeight: 56.4
+    buttonInsets: left(3),bottom(4),top(8),right(3)
+  - name: 数字
+    rows:
+      - keys:
+          - action: enter
+            width: percentage(0.15)
+            label: Raze®︎
+            swipe:
+              - action: shortCommand(#换行)
+                display: false
+                processByRIME: true
+                direction: up
+              - action: shortCommand(#换行)
+                display: true
+                processByRIME: true
+                direction: down
+          - action: backspace
+            width: percentage(0.15)
+            swipe:
+              - action: shortCommand(#重输)
+                display: false
+                processByRIME: true
+                direction: up
+              - action: shortCommand(#重输)
+                display: false
+                processByRIME: true
+                direction: down
+          - action: shortCommand(#粘贴)
+            width: percentage(0.14)
+            label: ✂︎
+            swipe:
+              - action: shortCommand(#剪切)
+                display: false
+                processByRIME: true
+                direction: up
+              - action: shortCommand(#复制)
+                display: false
+                processByRIME: true
+                direction: down
+          - action: keyboardType(custom(中文))
+            width: percentage(0.14)
+            label: 𓆩🀄️𓆪
+            swipe:
+              - action: keyboardType(custom(数字))
+                display: false
+                processByRIME: true
+                direction: up
+              - action: keyboardType(custom(符号))
+                display: false
+                processByRIME: true
+                direction: down
+          - action: shortCommand(#左移)
+            width: percentage(0.14)
+            label: 🔙
+            swipe:
+              - action: character(/)
+                display: false
+                processByRIME: true
+                direction: up
+              - action: character(/)
+                display: false
+                processByRIME: true
+                direction: down
+          - action: shortCommand(#右移)
+            width: percentage(0.14)
+            label: 🔜
+            swipe:
+              - action: character(;)
+                display: false
+                processByRIME: true
+                direction: up
+              - action: character(;)
+                display: false
+                processByRIME: true
+                direction: down
+          - action: character(`)
+            width: percentage(0.14)
+            label: 🔘
+        rowHeight: 44.4
+      - keys:
+          - action: character(1)
+            width: percentage(0.1)
+          - action: character(2)
+            width: percentage(0.1)
+          - action: character(3)
+            width: percentage(0.1)
+          - action: character(4)
+            width: percentage(0.1)
+          - action: character(5)
+            width: percentage(0.1)
+          - action: character(6)
+            width: percentage(0.1)
+          - action: character(7)
+            width: percentage(0.1)
+          - action: character(8)
+            width: percentage(0.1)
+          - action: character(9)
+            width: percentage(0.1)
+            swipe:
+              - action: character(()
+                display: false
+                processByRIME: true
+                direction: up
+              - action: character())
+                display: false
+                processByRIME: true
+                direction: down
+          - action: character(0)
+            width: percentage(0.1)
+        rowHeight: 56.4
+      - keys:
+          - action: character(-)
+            width: percentage(0.1)
+          - action: character(/)
+            width: percentage(0.1)
+          - action: character(：)
+            width: percentage(0.1)
+          - action: character(；)
+            width: percentage(0.1)
+            label: ﹔
+          - action: character(()
+            width: percentage(0.1)
+            label: ﹙
+          - action: character())
+            width: percentage(0.1)
+            label: ﹚
+          - action: character($)
+            width: percentage(0.1)
+          - action: character(&)
+            width: percentage(0.1)
+          - action: character(@)
+            width: percentage(0.1)
+          - action: character(")
+            width: percentage(0.1)
+        rowHeight: 56.4
+      - keys:
+          - action: keyboardType(custom(符号))
+            width: percentage(0.13)
+            label: "#+="
+          - action: none
+            width: percentage(0.02)
+          - action: character(.)
+            width: percentage(0.14)
+            label: ·
+          - action: character(,)
+            width: percentage(0.14)
+            label: ﹐
+          - action: character(?)
+            width: percentage(0.14)
+          - action: character(!)
+            width: percentage(0.14)
+          - action: character(')
+            width: percentage(0.14)
+          - action: none
+            width: percentage(0.02)
+          - action: backspace
+            width: percentage(0.13)
+        rowHeight: 56.4
+      - keys:
+          - action: keyboardType(custom(中文))
+            width: percentage(0.2)
+            label: ⊰❉⊱
+            swipe:
+              - action: keyboardType(classifySymbolic)
+                display: false
+                processByRIME: true
+                direction: up
+              - action: keyboardType(custom(九宫))
+                display: false
+                processByRIME: true
+                direction: down
+              - action: keyboardType(custom(九宫))
+                display: true
+                processByRIME: true
+                direction: left
+              - action: keyboardType(custom(符号))
+                display: false
+                processByRIME: true
+                direction: right
+          - action: space
+            width: available
+            label:
+              text: ________
+              loadingText: ___ 数字 ___
+            swipe:
+              - action: character(，)
+                display: true
+                processByRIME: true
+                direction: left
+              - action: character(。)
+                display: true
+                processByRIME: true
+                direction: right
+          - action: enter
+            width: percentage(0.2)
+            label: Return™︎
+            swipe:
+              - action: shortCommand(#换行)
+                display: true
+                processByRIME: true
+                direction: up
+        rowHeight: 56.4
+    buttonInsets: left(3),bottom(4),top(8),right(3)
+  - name: 符号
+    rows:
+      - keys:
+          - action: enter
+            width: percentage(0.15)
+            label: Raze®︎
+            swipe:
+              - action: shortCommand(#换行)
+                display: false
+                processByRIME: true
+                direction: up
+          - action: backspace
+            width: percentage(0.15)
+            swipe:
+              - action: shortCommand(#重输)
+                display: false
+                processByRIME: true
+                direction: up
+              - action: shortCommand(#重输)
+                display: false
+                processByRIME: true
+                direction: down
+          - action: shortCommand(#粘贴)
+            width: percentage(0.14)
+            label: ✂︎
+            swipe:
+              - action: shortCommand(#剪切)
+                display: false
+                processByRIME: true
+                direction: up
+              - action: shortCommand(#复制)
+                display: false
+                processByRIME: true
+                direction: down
+          - action: keyboardType(custom(中文))
+            width: percentage(0.14)
+            label: 𓆩🀄️𓆪
+            swipe:
+              - action: keyboardType(custom(数字))
+                display: false
+                processByRIME: true
+                direction: up
+              - action: keyboardType(custom(符号))
+                display: false
+                processByRIME: true
+                direction: down
+          - action: shortCommand(#左移)
+            width: percentage(0.14)
+            label: 🔙
+            swipe:
+              - action: character(/)
+                display: false
+                processByRIME: true
+                direction: up
+              - action: character(/)
+                display: false
+                processByRIME: true
+                direction: down
+          - action: shortCommand(#右移)
+            width: percentage(0.14)
+            label: 🔜
+            swipe:
+              - action: character(;)
+                display: false
+                processByRIME: true
+                direction: up
+              - action: character(;)
+                display: false
+                processByRIME: true
+                direction: down
+          - action: character(`)
+            width: percentage(0.14)
+            label: 🔘
+        rowHeight: 44.4
+      - keys:
+          - action: character(【)
+            width: percentage(0.1)
+            label: 【
+          - action: character(】)
+            width: percentage(0.1)
+            label: 】
+          - action: character(｛)
+            width: percentage(0.1)
+            label: ﹛
+          - action: character(｝)
+            width: percentage(0.1)
+            label: ﹜
+          - action: character(#)
+            width: percentage(0.1)
+            label: "#"
+          - action: character(%)
+            width: percentage(0.1)
+          - action: character(……)
+            width: percentage(0.1)
+            label: ^
+          - action: character(*)
+            width: percentage(0.1)
+          - action: character(+)
+            width: percentage(0.1)
+          - action: character(=)
+            width: percentage(0.1)
+        rowHeight: 56.4
+      - keys:
+          - action: character(_)
+            width: percentage(0.1)
+          - action: character(-)
+            width: percentage(0.1)
+            label: —
+          - action: character(\)
+            width: percentage(0.1)
+          - action: character(｜)
+            width: percentage(0.1)
+          - action: character(`)
+            width: percentage(0.1)
+          - action: character(《)
+            width: percentage(0.1)
+          - action: character(》)
+            width: percentage(0.1)
+          - action: character($)
+            width: percentage(0.1)
+          - action: character(&)
+            width: percentage(0.1)
+          - action: character(.)
+            width: percentage(0.1)
+        rowHeight: 56.4
+      - keys:
+          - action: keyboardType(custom(数字))
+            width: percentage(0.13)
+            label: "123"
+          - action: none
+            width: percentage(0.02)
+          - action: character(…)
+            width: percentage(0.14)
+          - action: character(，)
+            width: percentage(0.14)
+          - action: character(?)
+            width: percentage(0.14)
+          - action: character(！)
+            width: percentage(0.14)
+          - action: character(')
+            width: percentage(0.14)
+          - action: none
+            width: percentage(0.02)
+          - action: backspace
+            width: percentage(0.13)
+        rowHeight: 56.4
+      - keys:
+          - action: keyboardType(custom(中文))
+            width: percentage(0.2)
+            label: ⊰❉⊱
+            swipe:
+              - action: keyboardType(classifySymbolic)
+                display: false
+                processByRIME: true
+                direction: up
+              - action: keyboardType(custom(数字))
+                display: false
+                processByRIME: true
+                direction: down
+              - action: keyboardType(custom(数字))
+                display: true
+                processByRIME: true
+                direction: left
+              - action: keyboardType(custom(数字))
+                display: false
+                processByRIME: true
+                direction: right
+          - action: space
+            width: available
+            label:
+              text: ________
+              loadingText: ___ 符号 ___
+            swipe:
+              - action: character(，)
+                display: true
+                processByRIME: true
+                direction: left
+              - action: character(。)
+                display: true
+                processByRIME: true
+                direction: right
+          - action: enter
+            width: percentage(0.2)
+            label: Return™︎
+            swipe:
+              - action: shortCommand(#换行)
+                display: true
+                processByRIME: true
+                direction: up
+        rowHeight: 56.4
+    buttonInsets: left(3),bottom(4),top(8),right(3)
+  - name: 正中
+    rows:
+      - keys:
+          - action: enter
+            width: percentage(0.15)
+            label: Cyba®︎
+            swipe:
+              - action: shortCommand(#换行)
+                display: false
+                processByRIME: true
+                direction: up
+              - action: shortCommand(#换行)
+                display: false
+                processByRIME: true
+                direction: down
+          - action: backspace
+            width: percentage(0.15)
+            swipe:
+              - action: shortCommand(#重输)
+                display: false
+                processByRIME: true
+                direction: up
+              - action: shortCommand(#重输)
+                display: false
+                processByRIME: true
+                direction: down
+          - action: shortCommand(#粘贴)
+            width: percentage(0.14)
+            label: ✂︎
+            swipe:
+              - action: shortCommand(#剪切)
+                display: false
+                processByRIME: true
+                direction: up
+              - action: shortCommand(#复制)
+                display: false
+                processByRIME: true
+                direction: down
+              - action: tab
+                display: false
+                processByRIME: true
+                direction: left
+          - action: keyboardType(custom(正英))
+            width: percentage(0.14)
+            label: 𓆩🅔𓆪
+            swipe:
+              - action: keyboardType(custom(正數))
+                label: 英
+                display: false
+                processByRIME: true
+                direction: up
+              - action: keyboardType(custom(正符))
+                display: false
+                processByRIME: true
+                direction: down
+              - action: keyboardType(custom(左單))
+                display: false
+                processByRIME: true
+                direction: left
+              - action: keyboardType(custom(右單))
+                display: false
+                processByRIME: true
+                direction: right
+          - action: shortCommand(#左移)
+            width: percentage(0.14)
+            label: 🔙
+            swipe:
+              - action: character(/)
+                display: false
+                processByRIME: true
+                direction: up
+              - action: character(/)
+                display: false
+                processByRIME: true
+                direction: down
+          - action: shortCommand(#右移)
+            width: percentage(0.14)
+            label: 🔜
+            swipe:
+              - action: character(;)
+                display: false
+                processByRIME: true
+                direction: up
+              - action: character(;)
+                display: false
+                processByRIME: true
+                direction: down
+          - action: character(`)
+            width: percentage(0.14)
+            label: 🔘
+        rowHeight: 42.4
+      - keys:
+          - action: character(q)
+            width: percentage(0.1)
+            swipe:
+              - action: character(1)
+                display: true
+                processByRIME: true
+                direction: up
+              - action: character(！)
+                display: false
+                processByRIME: true
+                direction: down
+          - action: character(w)
+            width: percentage(0.1)
+            swipe:
+              - action: character(2)
+                display: true
+                processByRIME: true
+                direction: up
+              - action: character(@)
+                display: false
+                processByRIME: true
+                direction: down
+          - action: character(e)
+            width: percentage(0.1)
+            swipe:
+              - action: character(3)
+                display: true
+                processByRIME: true
+                direction: up
+              - action: character(#)
+                display: false
+                processByRIME: true
+                direction: down
+          - action: character(r)
+            width: percentage(0.1)
+            swipe:
+              - action: character(4)
+                display: true
+                processByRIME: true
+                direction: up
+              - action: character(%)
+                display: false
+                processByRIME: true
+                direction: down
+          - action: character(t)
+            width: percentage(0.1)
+            swipe:
+              - action: character(5)
+                display: true
+                processByRIME: true
+                direction: up
+              - action: character(￥)
+                display: false
+                processByRIME: true
+                direction: down
+          - action: character(y)
+            width: percentage(0.1)
+            swipe:
+              - action: character(6)
+                display: true
+                processByRIME: true
+                direction: up
+              - action: character(……)
+                display: false
+                processByRIME: true
+                direction: down
+          - action: character(u)
+            width: percentage(0.1)
+            swipe:
+              - action: character(7)
+                display: true
+                processByRIME: true
+                direction: up
+              - action: character(&)
+                display: false
+                processByRIME: true
+                direction: down
+          - action: character(i)
+            width: percentage(0.1)
+            swipe:
+              - action: character(8)
+                display: true
+                processByRIME: true
+                direction: up
+              - action: character(*)
+                display: false
+                processByRIME: true
+                direction: down
+          - action: character(o)
+            width: percentage(0.1)
+            swipe:
+              - action: character(9)
+                display: true
+                processByRIME: true
+                direction: up
+              - action: character(（)
+                display: false
+                processByRIME: true
+                direction: down
+          - action: character(p)
+            width: percentage(0.1)
+            swipe:
+              - action: character(0)
+                display: true
+                processByRIME: true
+                direction: up
+              - action: character(）)
+                display: false
+                processByRIME: true
+                direction: down
+              - action: symbol(晚安，好梦)
+                display: true
+                processByRIME: true
+                direction: left
+              - action: symbol(早安，KK)
+                display: true
+                processByRIME: true
+                direction: right
+        rowHeight: 52.4
+      - keys:
+          - action: none
+            width: percentage(0.05)
+          - action: character(a)
+            width: percentage(0.1)
+            swipe:
+              - action: character(@)
+                display: false
+                processByRIME: true
+                direction: down
+              - action: symbol(哈哈哈哈)
+                display: false
+                processByRIME: true
+                direction: left
+              - action: symbol(好嘞)
+                display: false
+                processByRIME: true
+                direction: right
+          - action: character(s)
+            width: percentage(0.1)
+          - action: character(d)
+            width: percentage(0.1)
+          - action: character(f)
+            width: percentage(0.1)
+          - action: character(g)
+            width: percentage(0.1)
+          - action: character(h)
+            width: percentage(0.1)
+            swipe:
+              - action: character(‹)
+                display: false
+                processByRIME: true
+                direction: up
+              - action: character(›)
+                display: false
+                processByRIME: true
+                direction: down
+          - action: character(j)
+            width: percentage(0.1)
+            swipe:
+              - action: character(')
+                label: ❝
+                display: false
+                processByRIME: true
+                direction: up
+              - action: character(”)
+                label: ❞
+                display: false
+                processByRIME: true
+                direction: down
+          - action: character(k)
+            width: percentage(0.1)
+            swipe:
+              - action: character(：)
+                label: ：
+                display: false
+                processByRIME: true
+                direction: up
+              - action: character(:)
+                label: ：
+                display: false
+                processByRIME: true
+                direction: down
+          - action: character(l)
+            width: percentage(0.1)
+            swipe:
+              - action: character(-)
+                display: false
+                processByRIME: true
+                direction: up
+              - action: character(—)
+                display: false
+                processByRIME: true
+                direction: down
+              - action: symbol(嗯嗯)
+                display: false
+                processByRIME: true
+                direction: left
+              - action: symbol(好呐好呐)
+                display: false
+                processByRIME: true
+                direction: right
+          - action: none
+            width: percentage(0.05)
+        rowHeight: 52.4
+      - keys:
+          - action: shift
+            width: percentage(0.13)
+            swipe:
+              - action: shortCommand(#繁简切换)
+                display: false
+                processByRIME: true
+                direction: up
+              - action: shortCommand(#中英切换)
+                display: false
+                processByRIME: true
+                direction: down
+          - action: none
+            width: percentage(0.02)
+          - action: character(z)
+            width: percentage(0.1)
+            swipe:
+              - action: shortCommand(#RimeSwitcher)
+                display: false
+                processByRIME: true
+                direction: up
+              - action: character(~)
+                display: false
+                processByRIME: true
+                direction: down
+          - action: character(x)
+            width: percentage(0.1)
+            swipe:
+              - action: shortCommand(#剪切)
+                label: 剪切
+                display: false
+                processByRIME: true
+                direction: up
+          - action: character(c)
+            width: percentage(0.1)
+            swipe:
+              - action: shortCommand(#复制)
+                label: 复制
+                display: false
+                processByRIME: true
+                direction: up
+          - action: character(v)
+            width: percentage(0.1)
+            swipe:
+              - action: shortCommand(#粘贴)
+                label: 粘贴
+                display: false
+                processByRIME: true
+                direction: up
+          - action: character(b)
+            width: percentage(0.1)
+            swipe:
+              - action: character({)
+                display: false
+                processByRIME: true
+                direction: up
+              - action: character(})
+                display: false
+                processByRIME: true
+                direction: down
+          - action: character(n)
+            width: percentage(0.1)
+            swipe:
+              - action: character(+)
+                label: ⁺
+                display: false
+                processByRIME: true
+                direction: up
+              - action: character(=)
+                label: ⁼
+                display: false
+                processByRIME: true
+                direction: down
+          - action: character(m)
+            width: percentage(0.1)
+            swipe:
+              - action: shortCommand(#行首)
+                display: true
+                processByRIME: true
+                direction: up
+              - action: shortCommand(#行尾)
+                display: true
+                processByRIME: true
+                direction: down
+              - action: shortCommand(#行首)
+                display: true
+                processByRIME: true
+                direction: left
+              - action: shortCommand(#行尾)
+                display: true
+                processByRIME: true
+                direction: right
+          - action: none
+            width: percentage(0.02)
+          - action: backspace
+            width: percentage(0.13)
+            swipe:
+              - action: shortCommand(#重输)
+                display: false
+                processByRIME: true
+                direction: up
+              - action: shortCommand(#重输)
+                display: false
+                processByRIME: true
+                direction: down
+        rowHeight: 52.4
+      - keys:
+          - action: keyboardType(custom(正九))
+            width: percentage(0.2)
+            label: 符號
+            swipe:
+              - action: keyboardType(classifySymbolic)
+                display: false
+                processByRIME: true
+                direction: up
+              - action: keyboardType(custom(正數))
+                display: false
+                processByRIME: true
+                direction: down
+              - action: keyboardType(custom(正數))
+                display: false
+                processByRIME: true
+                direction: left
+              - action: keyboardType(custom(正符))
+                display: false
+                processByRIME: true
+                direction: right
+          - action: character(？)
+            width: percentage(0.1)
+            label: "?"
+            swipe:
+              - action: character(！)
+                label: ！
+                display: false
+                processByRIME: true
+                direction: up
+              - action: character(！)
+                display: false
+                processByRIME: true
+                direction: down
+          - action: space
+            width: percentage(0.4)
+            label:
+              text: 空格
+              loadingText: ___ 中文 ___
+            swipe:
+              - action: shortCommand(#次选上屏)
+                display: true
+                processByRIME: true
+                direction: up
+              - action: shortCommand(#三选上屏)
+                display: true
+                processByRIME: true
+                direction: down
+              - action: character(。)
+                label: ，
+                display: false
+                processByRIME: true
+                direction: left
+              - action: character(。)
+                label: 。
+                display: false
+                processByRIME: true
+                direction: right
+          - action: character(，)
+            width: percentage(0.1)
+            label: •
+            swipe:
+              - action: character(。)
+                label: ﹐
+                display: false
+                processByRIME: true
+                direction: up
+              - action: character(……)
+                display: false
+                processByRIME: true
+                direction: down
+          - action: enter
+            width: percentage(0.2)
+            label: 回車
+            swipe:
+              - action: shortCommand(#换行)
+                display: false
+                processByRIME: true
+                direction: up
+              - action: shortCommand(#换行)
+                display: false
+                processByRIME: true
+                direction: down
+        rowHeight: 52.4
+    buttonInsets: left(3),bottom(4),top(8),right(3)
+  - name: 正英
+    rows:
+      - keys:
+          - action: enter
+            width: percentage(0.15)
+            label: Cyba®︎
+            swipe:
+              - action: shortCommand(#换行)
+                display: false
+                processByRIME: true
+                direction: up
+          - action: backspace
+            width: percentage(0.15)
+            swipe:
+              - action: shortCommand(#重输)
+                display: false
+                processByRIME: true
+                direction: up
+              - action: shortCommand(#重输)
+                display: false
+                processByRIME: true
+                direction: down
+          - action: shortCommand(#粘贴)
+            width: percentage(0.14)
+            label: ✂︎
+            swipe:
+              - action: shortCommand(#剪切)
+                display: false
+                processByRIME: true
+                direction: up
+              - action: shortCommand(#复制)
+                display: false
+                processByRIME: true
+                direction: down
+          - action: keyboardType(custom(正中))
+            width: percentage(0.14)
+            label: 𓆩㊥𓆪
+          - action: character(/)
+            width: percentage(0.14)
+            label: 🔙
+            swipe:
+              - action: tab
+                display: false
+                processByRIME: true
+                direction: up
+          - action: character(;)
+            width: percentage(0.14)
+            label: 🔜
+          - action: character(`)
+            width: percentage(0.14)
+            label: 🔘
+        rowHeight: 42.4
+      - keys:
+          - action: symbol(q)
+            width: percentage(0.1)
+          - action: symbol(w)
+            width: percentage(0.1)
+          - action: symbol(e)
+            width: percentage(0.1)
+          - action: symbol(r)
+            width: percentage(0.1)
+          - action: symbol(t)
+            width: percentage(0.1)
+          - action: symbol(y)
+            width: percentage(0.1)
+          - action: symbol(u)
+            width: percentage(0.1)
+          - action: symbol(i)
+            width: percentage(0.1)
+          - action: symbol(o)
+            width: percentage(0.1)
+          - action: symbol(p)
+            width: percentage(0.1)
+        rowHeight: 52.4
+      - keys:
+          - action: none
+            width: percentage(0.05)
+          - action: symbol(a)
+            width: percentage(0.1)
+          - action: symbol(s)
+            width: percentage(0.1)
+          - action: symbol(d)
+            width: percentage(0.1)
+          - action: symbol(f)
+            width: percentage(0.1)
+          - action: symbol(g)
+            width: percentage(0.1)
+          - action: symbol(h)
+            width: percentage(0.1)
+          - action: symbol(j)
+            width: percentage(0.1)
+          - action: symbol(k)
+            width: percentage(0.1)
+          - action: symbol(l)
+            width: percentage(0.1)
+          - action: none
+            width: percentage(0.05)
+        rowHeight: 52.4
+      - keys:
+          - action: shift
+            width: percentage(0.13)
+            swipe:
+              - action: keyboardType(custom(中文))
+                display: false
+                processByRIME: true
+                direction: up
+              - action: shortCommand(#繁简切换)
+                display: false
+                processByRIME: true
+                direction: down
+          - action: none
+            width: percentage(0.02)
+          - action: symbol(z)
+            width: percentage(0.1)
+          - action: symbol(x)
+            width: percentage(0.1)
+          - action: symbol(c)
+            width: percentage(0.1)
+          - action: symbol(v)
+            width: percentage(0.1)
+          - action: symbol(b)
+            width: percentage(0.1)
+          - action: symbol(n)
+            width: percentage(0.1)
+          - action: symbol(m)
+            width: percentage(0.1)
+            swipe:
+              - action: shortCommand(#行首)
+                display: true
+                processByRIME: true
+                direction: left
+              - action: shortCommand(#行尾)
+                display: true
+                processByRIME: true
+                direction: right
+          - action: none
+            width: percentage(0.02)
+          - action: backspace
+            width: percentage(0.13)
+            swipe:
+              - action: shortCommand(#重输)
+                display: false
+                processByRIME: true
+                direction: up
+              - action: shortCommand(#重输)
+                display: false
+                processByRIME: true
+                direction: down
+        rowHeight: 52.4
+      - keys:
+          - action: keyboardType(custom(正文))
+            width: percentage(0.2)
+            label: 符號
+            swipe:
+              - action: keyboardType(classifySymbolic)
+                display: false
+                processByRIME: true
+                direction: up
+              - action: keyboardType(custom(正數))
+                display: false
+                processByRIME: true
+                direction: down
+              - action: keyboardType(custom(正數))
+                display: false
+                processByRIME: true
+                direction: left
+              - action: keyboardType(custom(正符))
+                display: false
+                processByRIME: true
+                direction: right
+          - action: character(？)
+            width: percentage(0.1)
+            label: "?"
+            swipe:
+              - action: character(！)
+                label: ！
+                display: false
+                processByRIME: true
+                direction: up
+              - action: character(！)
+                display: false
+                processByRIME: true
+                direction: down
+          - action: space
+            width: percentage(0.4)
+            label:
+              text: 空格
+              loadingText: ____  英文  ____
+            swipe:
+              - action: shortCommand(#左移)
+                display: true
+                processByRIME: true
+                direction: left
+              - action: shortCommand(#右移)
+                display: true
+                processByRIME: true
+                direction: right
+          - action: character(.)
+            width: percentage(0.1)
+            label: •
+            swipe:
+              - action: character(，)
+                label: ﹐
+                display: false
+                processByRIME: true
+                direction: up
+              - action: character(，)
+                display: false
+                processByRIME: true
+                direction: down
+          - action: enter
+            width: percentage(0.2)
+            label: 回車
+            swipe:
+              - action: shortCommand(#换行)
+                display: false
+                processByRIME: true
+                direction: up
+              - action: shortCommand(#换行)
+                display: false
+                processByRIME: true
+                direction: down
+        rowHeight: 52.4
+    buttonInsets: left(3),bottom(4),top(8),right(3)
+  - name: 正符
+    rows:
+      - keys:
+          - action: enter
+            width: percentage(0.15)
+            label: Cyba®︎
+            swipe:
+              - action: shortCommand(#换行)
+                display: false
+                processByRIME: true
+                direction: up
+          - action: backspace
+            width: percentage(0.15)
+            swipe:
+              - action: shortCommand(#重输)
+                display: false
+                processByRIME: true
+                direction: up
+              - action: shortCommand(#重输)
+                display: false
+                processByRIME: true
+                direction: down
+          - action: shortCommand(#粘贴)
+            width: percentage(0.14)
+            label: ✂︎
+            swipe:
+              - action: shortCommand(#剪切)
+                display: false
+                processByRIME: true
+                direction: up
+              - action: shortCommand(#复制)
+                display: false
+                processByRIME: true
+                direction: down
+          - action: keyboardType(custom(正中))
+            width: percentage(0.14)
+            label: 𓆩㊥𓆪
+          - action: character(/)
+            width: percentage(0.14)
+            label: 🔙
+            swipe:
+              - action: tab
+                display: false
+                processByRIME: true
+                direction: up
+          - action: character(;)
+            width: percentage(0.14)
+            label: 🔜
+          - action: character(`)
+            width: percentage(0.14)
+            label: 🔘
+        rowHeight: 42.4
+      - keys:
+          - action: character(【)
+            width: percentage(0.1)
+            label: 【
+          - action: character(】)
+            width: percentage(0.1)
+            label: 】
+          - action: character(｛)
+            width: percentage(0.1)
+            label: ﹛
+          - action: character(｝)
+            width: percentage(0.1)
+            label: ﹜
+          - action: character(#)
+            width: percentage(0.1)
+            label: "#"
+          - action: character(%)
+            width: percentage(0.1)
+          - action: character(……)
+            width: percentage(0.1)
+            label: ^
+          - action: character(*)
+            width: percentage(0.1)
+          - action: character(+)
+            width: percentage(0.1)
+          - action: character(=)
+            width: percentage(0.1)
+        rowHeight: 52.4
+      - keys:
+          - action: character(_)
+            width: percentage(0.1)
+          - action: character(-)
+            width: percentage(0.1)
+            label: —
+          - action: character(\)
+            width: percentage(0.1)
+          - action: character(｜)
+            width: percentage(0.1)
+          - action: character(`)
+            width: percentage(0.1)
+          - action: character(《)
+            width: percentage(0.1)
+          - action: character(》)
+            width: percentage(0.1)
+          - action: character($)
+            width: percentage(0.1)
+          - action: character(&)
+            width: percentage(0.1)
+          - action: character(.)
+            width: percentage(0.1)
+        rowHeight: 52.4
+      - keys:
+          - action: keyboardType(custom(数字))
+            width: percentage(0.13)
+            label: "123"
+          - action: none
+            width: percentage(0.02)
+          - action: character(…)
+            width: percentage(0.14)
+          - action: character(，)
+            width: percentage(0.14)
+          - action: character(?)
+            width: percentage(0.14)
+          - action: character(！)
+            width: percentage(0.14)
+          - action: character(')
+            width: percentage(0.14)
+          - action: none
+            width: percentage(0.02)
+          - action: backspace
+            width: percentage(0.13)
+        rowHeight: 52.4
+      - keys:
+          - action: keyboardType(custom(正中))
+            width: percentage(0.2)
+            label: 符號
+            swipe:
+              - action: keyboardType(classifySymbolic)
+                display: false
+                processByRIME: true
+                direction: up
+              - action: keyboardType(custom(正數))
+                display: false
+                processByRIME: true
+                direction: down
+              - action: keyboardType(custom(正數))
+                display: true
+                processByRIME: true
+                direction: left
+              - action: keyboardType(custom(正數))
+                display: false
+                processByRIME: true
+                direction: right
+          - action: space
+            width: available
+            label:
+              text: 空格
+              loadingText: ____  符号  ____
+          - action: enter
+            width: percentage(0.2)
+            label: 回車
+        rowHeight: 52.4
+    buttonInsets: left(3),bottom(4),top(8),right(3)
+  - name: 正九
+    rows:
+      - keys:
+          - action: enter
+            width: percentage(0.15)
+            label: Cyba®︎
+            swipe:
+              - action: shortCommand(#换行)
+                display: false
+                processByRIME: true
+                direction: up
+          - action: backspace
+            width: percentage(0.15)
+            swipe:
+              - action: shortCommand(#重输)
+                display: false
+                processByRIME: true
+                direction: up
+              - action: shortCommand(#重输)
+                display: false
+                processByRIME: true
+                direction: down
+          - action: shortCommand(#粘贴)
+            width: percentage(0.14)
+            label: ✂︎
+            swipe:
+              - action: shortCommand(#剪切)
+                display: false
+                processByRIME: true
+                direction: up
+              - action: shortCommand(#复制)
+                display: false
+                processByRIME: true
+                direction: down
+          - action: keyboardType(custom(正中))
+            width: percentage(0.14)
+            label: 𓆩㊥𓆪
+          - action: character(/)
+            width: percentage(0.14)
+            label: 🔙
+            swipe:
+              - action: tab
+                display: false
+                processByRIME: true
+                direction: up
+          - action: character(;)
+            width: percentage(0.14)
+            label: 🔜
+          - action: character(`)
+            width: percentage(0.14)
+            label: 🔘
+        rowHeight: 42.4
+      - keys:
+          - action: character(+)
+            width: percentage(0.1)
+          - action: character(-)
+            width: percentage(0.1)
+          - action: character(1)
+            width: percentage(0.2)
+            swipe:
+              - action: character(壹)
+                label: 壹
+                display: false
+                processByRIME: true
+                direction: up
+              - action: character(一)
+                label: 一
+                display: false
+                processByRIME: true
+                direction: down
+          - action: character(2)
+            width: percentage(0.2)
+            swipe:
+              - action: character(貳)
+                label: 貳
+                display: false
+                processByRIME: true
+                direction: up
+              - action: character(二)
+                label: 二
+                display: false
+                processByRIME: true
+                direction: down
+          - action: character(3)
+            width: percentage(0.2)
+            swipe:
+              - action: character(叁)
+                label: 叁
+                display: false
+                processByRIME: true
+                direction: up
+              - action: character(三)
+                label: 三
+                display: false
+                processByRIME: true
+                direction: down
+          - action: character(（)
+            width: percentage(0.1)
+            swipe:
+              - action: character(佰)
+                label: 佰
+                display: false
+                processByRIME: true
+                direction: up
+          - action: character(）)
+            width: percentage(0.1)
+            swipe:
+              - action: character(仟)
+                label: 仟
+                display: false
+                processByRIME: true
+                direction: up
+        rowHeight: 52.4
+      - keys:
+          - action: character(*)
+            width: percentage(0.1)
+            label: ×
+          - action: character(/)
+            width: percentage(0.1)
+            label: ÷
+          - action: character(4)
+            width: percentage(0.2)
+            swipe:
+              - action: character(肆)
+                label: 肆
+                display: false
+                processByRIME: true
+                direction: up
+              - action: character(四)
+                label: 四
+                display: false
+                processByRIME: true
+                direction: down
+          - action: character(5)
+            width: percentage(0.2)
+            swipe:
+              - action: character(伍)
+                label: 伍
+                display: false
+                processByRIME: true
+                direction: up
+              - action: character(五)
+                label: 五
+                display: false
+                processByRIME: true
+                direction: down
+          - action: character(6)
+            width: percentage(0.2)
+            swipe:
+              - action: character(陸)
+                label: 陸
+                display: false
+                processByRIME: true
+                direction: up
+              - action: character(六)
+                label: 六
+                display: false
+                processByRIME: true
+                direction: down
+          - action: character(:)
+            width: percentage(0.1)
+            swipe:
+              - action: character(萬)
+                display: false
+                processByRIME: true
+                direction: up
+          - action: character(?)
+            width: percentage(0.1)
+            swipe:
+              - action: character(億)
+                label: 億
+                display: false
+                processByRIME: true
+                direction: up
+        rowHeight: 52.4
+      - keys:
+          - action: character(=)
+            width: percentage(0.2)
+          - action: character(7)
+            width: percentage(0.2)
+            swipe:
+              - action: character(柒)
+                label: 柒
+                display: false
+                processByRIME: true
+                direction: up
+              - action: character(七)
+                label: 七
+                display: false
+                processByRIME: true
+                direction: down
+          - action: character(8)
+            width: percentage(0.2)
+            swipe:
+              - action: character(捌)
+                label: 捌
+                display: false
+                processByRIME: true
+                direction: up
+              - action: character(八)
+                label: 八
+                display: false
+                processByRIME: true
+                direction: down
+          - action: character(9)
+            width: percentage(0.2)
+            swipe:
+              - action: character(玖)
+                label: 玖
+                display: false
+                processByRIME: true
+                direction: up
+              - action: character(九)
+                label: 九
+                display: false
+                processByRIME: true
+                direction: down
+          - action: tab
+            width: percentage(0.1)
+          - action: backspace
+            width: percentage(0.1)
+        rowHeight: 52.4
+      - keys:
+          - action: keyboardType(custom(正中))
+            width: percentage(0.2)
+            label: 符號
+            swipe:
+              - action: keyboardType(classifySymbolic)
+                display: false
+                processByRIME: true
+                direction: up
+              - action: keyboardType(custom(正數))
+                display: false
+                processByRIME: true
+                direction: down
+              - action: keyboardType(custom(正數))
+                display: false
+                processByRIME: true
+                direction: left
+              - action: keyboardType(custom(正符))
+                display: false
+                processByRIME: true
+                direction: right
+          - action: character(.)
+            width: percentage(0.2)
+            label: •
+          - action: character(0)
+            width: percentage(0.2)
+            swipe:
+              - action: character(零)
+                label: 零
+                display: false
+                processByRIME: true
+                direction: up
+              - action: character(零)
+                label: 零
+                display: false
+                processByRIME: true
+                direction: down
+          - action: space
+            width: percentage(0.2)
+            label:
+              text: ___
+              loadingText: 九宫
+          - action: enter
+            width: percentage(0.2)
+            label: 回車
+            swipe:
+              - action: shortCommand(#换行)
+                display: false
+                processByRIME: true
+                direction: up
+              - action: shortCommand(#换行)
+                display: false
+                processByRIME: true
+                direction: down
+        rowHeight: 52.4
+    buttonInsets: left(3),bottom(4),top(8),right(3)
+  - name: 正數
+    rows:
+      - keys:
+          - action: enter
+            width: percentage(0.15)
+            label: Cyba®︎
+            swipe:
+              - action: shortCommand(#换行)
+                display: false
+                processByRIME: true
+                direction: up
+          - action: backspace
+            width: percentage(0.15)
+            swipe:
+              - action: shortCommand(#重输)
+                display: false
+                processByRIME: true
+                direction: up
+              - action: shortCommand(#重输)
+                display: false
+                processByRIME: true
+                direction: down
+          - action: shortCommand(#粘贴)
+            width: percentage(0.14)
+            label: ✂︎
+            swipe:
+              - action: shortCommand(#剪切)
+                display: false
+                processByRIME: true
+                direction: up
+              - action: shortCommand(#复制)
+                display: false
+                processByRIME: true
+                direction: down
+          - action: keyboardType(custom(正中))
+            width: percentage(0.14)
+            label: 𓆩㊥𓆪
+          - action: character(/)
+            width: percentage(0.14)
+            label: 🔙
+            swipe:
+              - action: tab
+                display: false
+                processByRIME: true
+                direction: up
+          - action: character(;)
+            width: percentage(0.14)
+            label: 🔜
+          - action: character(`)
+            width: percentage(0.14)
+            label: 🔘
+        rowHeight: 42.4
+      - keys:
+          - action: character(1)
+            width: percentage(0.1)
+          - action: character(2)
+            width: percentage(0.1)
+          - action: character(3)
+            width: percentage(0.1)
+          - action: character(4)
+            width: percentage(0.1)
+          - action: character(5)
+            width: percentage(0.1)
+          - action: character(6)
+            width: percentage(0.1)
+          - action: character(7)
+            width: percentage(0.1)
+          - action: character(8)
+            width: percentage(0.1)
+          - action: character(9)
+            width: percentage(0.1)
+          - action: character(0)
+            width: percentage(0.1)
+        rowHeight: 52.4
+      - keys:
+          - action: character(-)
+            width: percentage(0.1)
+          - action: character(/)
+            width: percentage(0.1)
+          - action: character(：)
+            width: percentage(0.1)
+          - action: character(；)
+            width: percentage(0.1)
+            label: ﹔
+          - action: character(()
+            width: percentage(0.1)
+            label: ﹙
+          - action: character())
+            width: percentage(0.1)
+            label: ﹚
+          - action: character($)
+            width: percentage(0.1)
+          - action: character(&)
+            width: percentage(0.1)
+          - action: character(@)
+            width: percentage(0.1)
+          - action: character(")
+            width: percentage(0.1)
+        rowHeight: 52.4
+      - keys:
+          - action: keyboardType(custom(符号))
+            width: percentage(0.13)
+            label: "#+="
+          - action: none
+            width: percentage(0.02)
+          - action: character(.)
+            width: percentage(0.14)
+            label: ·
+          - action: character(,)
+            width: percentage(0.14)
+            label: ﹐
+          - action: character(?)
+            width: percentage(0.14)
+          - action: character(!)
+            width: percentage(0.14)
+          - action: character(')
+            width: percentage(0.14)
+          - action: none
+            width: percentage(0.02)
+          - action: backspace
+            width: percentage(0.13)
+        rowHeight: 52.4
+      - keys:
+          - action: keyboardType(custom(正中))
+            width: percentage(0.2)
+            label: 符號
+            swipe:
+              - action: keyboardType(classifySymbolic)
+                display: false
+                processByRIME: true
+                direction: up
+              - action: keyboardType(custom(正九))
+                display: false
+                processByRIME: true
+                direction: down
+              - action: keyboardType(custom(正九))
+                display: true
+                processByRIME: true
+                direction: left
+              - action: keyboardType(custom(正符))
+                display: false
+                processByRIME: true
+                direction: right
+          - action: space
+            width: available
+            label:
+              text: 空格
+              loadingText: ____  数字  ____
+            swipe:
+              - action: shortCommand(#左移)
+                display: true
+                processByRIME: true
+                direction: left
+              - action: shortCommand(#右移)
+                display: true
+                processByRIME: true
+                direction: right
+          - action: enter
+            width: percentage(0.2)
+            label: 回車
+        rowHeight: 52.4
+    buttonInsets: left(3),bottom(4),top(8),right(3)
+  - name: 左單
+    rows:
+      - keys:
+          - action: enter
+            width: percentage(0.15)
+            label: Cyba®︎
+            swipe:
+              - action: shortCommand(#换行)
+                display: false
+                processByRIME: true
+                direction: up
+              - action: shortCommand(#换行)
+                display: false
+                processByRIME: true
+                direction: down
+          - action: backspace
+            width: percentage(0.15)
+            swipe:
+              - action: shortCommand(#重输)
+                display: false
+                processByRIME: true
+                direction: up
+              - action: shortCommand(#重输)
+                display: false
+                processByRIME: true
+                direction: down
+          - action: shortCommand(#粘贴)
+            width: percentage(0.14)
+            label: ✂︎
+            swipe:
+              - action: shortCommand(#剪切)
+                display: false
+                processByRIME: true
+                direction: up
+              - action: shortCommand(#复制)
+                display: false
+                processByRIME: true
+                direction: down
+              - action: tab
+                display: false
+                processByRIME: true
+                direction: left
+          - action: keyboardType(custom(正中))
+            width: percentage(0.14)
+            label: 𓆩英𓆪
+            swipe:
+              - action: keyboardType(custom(正數))
+                display: false
+                processByRIME: true
+                direction: up
+              - action: keyboardType(custom(正符))
+                display: false
+                processByRIME: true
+                direction: down
+              - action: keyboardType(custom(左單))
+                display: true
+                processByRIME: true
+                direction: left
+              - action: keyboardType(custom(右單))
+                display: true
+                processByRIME: true
+                direction: right
+          - action: shortCommand(#左移)
+            width: percentage(0.14)
+            label: 🔙
+            swipe:
+              - action: character(/)
+                display: false
+                processByRIME: true
+                direction: up
+              - action: character(/)
+                display: false
+                processByRIME: true
+                direction: down
+          - action: shortCommand(#右移)
+            width: percentage(0.14)
+            label: 🔜
+            swipe:
+              - action: character(;)
+                display: false
+                processByRIME: true
+                direction: up
+              - action: character(;)
+                display: false
+                processByRIME: true
+                direction: down
+          - action: character(`)
+            width: percentage(0.14)
+            label: 🔘
+        rowHeight: 42.4
+      - keys:
+          - action: character(q)
+            width: percentage(0.08)
+          - action: character(w)
+            width: percentage(0.08)
+          - action: character(e)
+            width: percentage(0.08)
+          - action: character(r)
+            width: percentage(0.08)
+          - action: character(t)
+            width: percentage(0.08)
+          - action: character(y)
+            width: percentage(0.08)
+          - action: character(u)
+            width: percentage(0.08)
+          - action: character(i)
+            width: percentage(0.08)
+          - action: character(o)
+            width: percentage(0.08)
+          - action: character(p)
+            width: percentage(0.08)
+            swipe:
+              - action: symbol(晚安，好梦)
+                display: true
+                processByRIME: true
+                direction: left
+              - action: symbol(早安，KK)
+                display: true
+                processByRIME: true
+                direction: right
+          - action: keyboardType(custom(左單))
+            width: percentage(0.1)
+            label: ⇋
+            swipe:
+              - action: symbol(晚安，好梦)
+                display: true
+                processByRIME: true
+                direction: left
+              - action: symbol(早安，KK)
+                display: true
+                processByRIME: true
+                direction: right
+          - action: keyboardType(custom(右單))
+            width: percentage(0.1)
+            label: ⇌
+            swipe:
+              - action: symbol(晚安，好梦)
+                display: true
+                processByRIME: true
+                direction: left
+              - action: symbol(早安，KK)
+                display: true
+                processByRIME: true
+                direction: right
+        rowHeight: 52.4
+      - keys:
+          - action: none
+            width: percentage(0.02)
+          - action: character(a)
+            width: percentage(0.08)
+            swipe:
+              - action: character(@)
+                display: false
+                processByRIME: true
+                direction: down
+              - action: symbol(哈哈哈哈)
+                display: false
+                processByRIME: true
+                direction: left
+              - action: symbol(好嘞)
+                display: false
+                processByRIME: true
+                direction: right
+          - action: character(s)
+            width: percentage(0.08)
+          - action: character(d)
+            width: percentage(0.08)
+          - action: character(f)
+            width: percentage(0.08)
+          - action: character(g)
+            width: percentage(0.08)
+          - action: character(h)
+            width: percentage(0.08)
+            swipe:
+              - action: character(‹)
+                display: false
+                processByRIME: true
+                direction: up
+              - action: character(›)
+                display: false
+                processByRIME: true
+                direction: down
+          - action: character(j)
+            width: percentage(0.08)
+            swipe:
+              - action: character(')
+                label: ❝
+                display: false
+                processByRIME: true
+                direction: up
+              - action: character(”)
+                label: ❞
+                display: false
+                processByRIME: true
+                direction: down
+          - action: character(k)
+            width: percentage(0.08)
+            swipe:
+              - action: character(：)
+                label: ：
+                display: false
+                processByRIME: true
+                direction: up
+              - action: character(:)
+                label: ：
+                display: false
+                processByRIME: true
+                direction: down
+          - action: character(l)
+            width: percentage(0.08)
+            swipe:
+              - action: character(-)
+                display: false
+                processByRIME: true
+                direction: up
+              - action: character(—)
+                display: false
+                processByRIME: true
+                direction: down
+              - action: symbol(嗯嗯)
+                display: false
+                processByRIME: true
+                direction: left
+              - action: symbol(好呐好呐)
+                display: false
+                processByRIME: true
+                direction: right
+          - action: none
+            width: percentage(0.02)
+            swipe:
+              - action: character(-)
+                display: false
+                processByRIME: true
+                direction: up
+              - action: character(—)
+                display: false
+                processByRIME: true
+                direction: down
+              - action: symbol(嗯嗯)
+                display: false
+                processByRIME: true
+                direction: left
+              - action: symbol(好呐好呐)
+                display: false
+                processByRIME: true
+                direction: right
+          - action: shortCommand(#复制)
+            width: percentage(0.12)
+            label: 複製
+            swipe:
+              - action: symbol(晚安，好梦)
+                display: true
+                processByRIME: true
+                direction: left
+              - action: symbol(早安，KK)
+                display: true
+                processByRIME: true
+                direction: right
+          - action: shortCommand(#剪切)
+            width: percentage(0.12)
+            label: 剪切
+            swipe:
+              - action: symbol(晚安，好梦)
+                display: true
+                processByRIME: true
+                direction: left
+              - action: symbol(早安，KK)
+                display: true
+                processByRIME: true
+                direction: right
+        rowHeight: 52.4
+      - keys:
+          - action: shift
+            width: percentage(0.09)
+            swipe:
+              - action: shortCommand(#繁简切换)
+                display: false
+                processByRIME: true
+                direction: up
+              - action: shortCommand(#中英切换)
+                display: false
+                processByRIME: true
+                direction: down
+          - action: none
+            width: percentage(0.02)
+          - action: character(z)
+            width: percentage(0.08)
+            swipe:
+              - action: shortCommand(#RimeSwitcher)
+                display: false
+                processByRIME: true
+                direction: up
+              - action: character(~)
+                display: false
+                processByRIME: true
+                direction: down
+          - action: character(x)
+            width: percentage(0.08)
+            swipe:
+              - action: shortCommand(#剪切)
+                label: 剪切
+                display: false
+                processByRIME: true
+                direction: up
+          - action: character(c)
+            width: percentage(0.08)
+            swipe:
+              - action: shortCommand(#复制)
+                label: 复制
+                display: false
+                processByRIME: true
+                direction: up
+          - action: character(v)
+            width: percentage(0.08)
+            swipe:
+              - action: shortCommand(#粘贴)
+                label: 粘贴
+                display: false
+                processByRIME: true
+                direction: up
+          - action: character(b)
+            width: percentage(0.08)
+            swipe:
+              - action: character({)
+                display: false
+                processByRIME: true
+                direction: up
+              - action: character(})
+                display: false
+                processByRIME: true
+                direction: down
+          - action: character(n)
+            width: percentage(0.08)
+            swipe:
+              - action: character(+)
+                label: ⁺
+                display: false
+                processByRIME: true
+                direction: up
+              - action: character(=)
+                label: ⁼
+                display: false
+                processByRIME: true
+                direction: down
+          - action: character(m)
+            width: percentage(0.08)
+            swipe:
+              - action: shortCommand(#行首)
+                display: true
+                processByRIME: true
+                direction: up
+              - action: shortCommand(#行尾)
+                display: true
+                processByRIME: true
+                direction: down
+              - action: shortCommand(#行首)
+                display: true
+                processByRIME: true
+                direction: left
+              - action: shortCommand(#行尾)
+                display: true
+                processByRIME: true
+                direction: right
+          - action: none
+            width: percentage(0.02)
+          - action: backspace
+            width: percentage(0.13)
+            swipe:
+              - action: shortCommand(#重输)
+                display: false
+                processByRIME: true
+                direction: up
+              - action: shortCommand(#重输)
+                display: false
+                processByRIME: true
+                direction: down
+          - action: shortCommand(#粘贴)
+            width: percentage(0.18)
+            label: ↹
+            swipe:
+              - action: shortCommand(#换行)
+                display: false
+                processByRIME: true
+                direction: up
+              - action: shortCommand(#换行)
+                display: false
+                processByRIME: true
+                direction: down
+        rowHeight: 52.4
+      - keys:
+          - action: keyboardType(custom(正九))
+            width: percentage(0.13)
+            label: 符號
+            swipe:
+              - action: keyboardType(classifySymbolic)
+                display: false
+                processByRIME: true
+                direction: up
+              - action: keyboardType(custom(正數))
+                display: false
+                processByRIME: true
+                direction: down
+              - action: keyboardType(custom(正數))
+                display: false
+                processByRIME: true
+                direction: left
+              - action: keyboardType(custom(正符))
+                display: false
+                processByRIME: true
+                direction: right
+          - action: character(？)
+            width: percentage(0.08)
+            label: "?"
+            swipe:
+              - action: character(！)
+                label: ！
+                display: false
+                processByRIME: true
+                direction: up
+              - action: character(！)
+                display: false
+                processByRIME: true
+                direction: down
+          - action: space
+            width: percentage(0.35)
+            label:
+              text: 空格
+              loadingText: ___ 中文 ___
+            swipe:
+              - action: shortCommand(#次选上屏)
+                display: true
+                processByRIME: true
+                direction: up
+              - action: shortCommand(#三选上屏)
+                display: true
+                processByRIME: true
+                direction: down
+              - action: character(。)
+                label: ，
+                display: false
+                processByRIME: true
+                direction: left
+              - action: character(。)
+                label: 。
+                display: false
+                processByRIME: true
+                direction: right
+          - action: character(，)
+            width: percentage(0.08)
+            label: •
+            swipe:
+              - action: character(。)
+                label: ﹐
+                display: false
+                processByRIME: true
+                direction: up
+              - action: character(……)
+                display: false
+                processByRIME: true
+                direction: down
+          - action: enter
+            width: percentage(0.18)
+            label: 回車
+            swipe:
+              - action: shortCommand(#换行)
+                display: false
+                processByRIME: true
+                direction: up
+              - action: shortCommand(#换行)
+                display: false
+                processByRIME: true
+                direction: down
+          - action: shortCommand(#粘贴)
+            width: percentage(0.18)
+            label: ↸
+            swipe:
+              - action: shortCommand(#换行)
+                display: false
+                processByRIME: true
+                direction: up
+              - action: shortCommand(#换行)
+                display: false
+                processByRIME: true
+                direction: down
+        rowHeight: 52.4
+    buttonInsets: left(3),bottom(4),top(8),right(3)
+  - name: 右單
+    rows:
+      - keys:
+          - action: enter
+            width: percentage(0.15)
+            label: Cyba®︎
+            swipe:
+              - action: shortCommand(#换行)
+                display: false
+                processByRIME: true
+                direction: up
+              - action: shortCommand(#换行)
+                display: false
+                processByRIME: true
+                direction: down
+          - action: backspace
+            width: percentage(0.15)
+            swipe:
+              - action: shortCommand(#重输)
+                display: false
+                processByRIME: true
+                direction: up
+              - action: shortCommand(#重输)
+                display: false
+                processByRIME: true
+                direction: down
+          - action: shortCommand(#粘贴)
+            width: percentage(0.14)
+            label: ✂︎
+            swipe:
+              - action: shortCommand(#剪切)
+                display: false
+                processByRIME: true
+                direction: up
+              - action: shortCommand(#复制)
+                display: false
+                processByRIME: true
+                direction: down
+              - action: tab
+                display: false
+                processByRIME: true
+                direction: left
+          - action: keyboardType(custom(正中))
+            width: percentage(0.14)
+            label: 𓆩英𓆪
+            swipe:
+              - action: keyboardType(custom(正數))
+                display: false
+                processByRIME: true
+                direction: up
+              - action: keyboardType(custom(正符))
+                display: false
+                processByRIME: true
+                direction: down
+              - action: keyboardType(custom(左單))
+                display: true
+                processByRIME: true
+                direction: left
+              - action: keyboardType(custom(右單))
+                display: true
+                processByRIME: true
+                direction: right
+          - action: shortCommand(#左移)
+            width: percentage(0.14)
+            label: 🔙
+            swipe:
+              - action: character(/)
+                display: false
+                processByRIME: true
+                direction: up
+              - action: character(/)
+                display: false
+                processByRIME: true
+                direction: down
+          - action: shortCommand(#右移)
+            width: percentage(0.14)
+            label: 🔜
+            swipe:
+              - action: character(;)
+                display: false
+                processByRIME: true
+                direction: up
+              - action: character(;)
+                display: false
+                processByRIME: true
+                direction: down
+          - action: character(`)
+            width: percentage(0.14)
+            label: 🔘
+        rowHeight: 42.4
+      - keys:
+          - action: keyboardType(custom(正中))
+            width: available
+            label: ↹
+            swipe:
+              - action: symbol(晚安，好梦)
+                display: true
+                processByRIME: true
+                direction: left
+              - action: symbol(早安，KK)
+                display: true
+                processByRIME: true
+                direction: right
+          - action: character(q)
+            width: percentage(0.08)
+          - action: character(w)
+            width: percentage(0.08)
+          - action: character(e)
+            width: percentage(0.08)
+          - action: character(r)
+            width: percentage(0.08)
+          - action: character(t)
+            width: percentage(0.08)
+          - action: character(y)
+            width: percentage(0.08)
+          - action: character(u)
+            width: percentage(0.08)
+          - action: character(i)
+            width: percentage(0.08)
+          - action: character(o)
+            width: percentage(0.08)
+          - action: character(p)
+            width: percentage(0.08)
+            swipe:
+              - action: symbol(晚安，好梦)
+                display: true
+                processByRIME: true
+                direction: left
+              - action: symbol(早安，KK)
+                display: true
+                processByRIME: true
+                direction: right
+        rowHeight: 52.4
+      - keys:
+          - action: keyboardType(custom(左單))
+            width: percentage(0.24)
+            label: ▶ ılıılılılılıl
+            swipe:
+              - action: character(@)
+                display: false
+                processByRIME: true
+                direction: down
+              - action: symbol(哈哈哈哈)
+                display: false
+                processByRIME: true
+                direction: left
+              - action: symbol(好嘞)
+                display: false
+                processByRIME: true
+                direction: right
+          - action: none
+            width: percentage(0.02)
+          - action: character(a)
+            width: percentage(0.08)
+            swipe:
+              - action: character(@)
+                display: false
+                processByRIME: true
+                direction: down
+              - action: symbol(哈哈哈哈)
+                display: false
+                processByRIME: true
+                direction: left
+              - action: symbol(好嘞)
+                display: false
+                processByRIME: true
+                direction: right
+          - action: character(s)
+            width: percentage(0.08)
+          - action: character(d)
+            width: percentage(0.08)
+          - action: character(f)
+            width: percentage(0.08)
+          - action: character(g)
+            width: percentage(0.08)
+          - action: character(h)
+            width: percentage(0.08)
+            swipe:
+              - action: character(‹)
+                display: false
+                processByRIME: true
+                direction: up
+              - action: character(›)
+                display: false
+                processByRIME: true
+                direction: down
+          - action: character(j)
+            width: percentage(0.08)
+            swipe:
+              - action: character(')
+                label: ❝
+                display: false
+                processByRIME: true
+                direction: up
+              - action: character(”)
+                label: ❞
+                display: false
+                processByRIME: true
+                direction: down
+          - action: character(k)
+            width: percentage(0.08)
+            swipe:
+              - action: character(：)
+                label: ：
+                display: false
+                processByRIME: true
+                direction: up
+              - action: character(:)
+                label: ：
+                display: false
+                processByRIME: true
+                direction: down
+          - action: character(l)
+            width: percentage(0.08)
+            swipe:
+              - action: character(-)
+                display: false
+                processByRIME: true
+                direction: up
+              - action: character(—)
+                display: false
+                processByRIME: true
+                direction: down
+              - action: symbol(嗯嗯)
+                display: false
+                processByRIME: true
+                direction: left
+              - action: symbol(好呐好呐)
+                display: false
+                processByRIME: true
+                direction: right
+        rowHeight: 52.4
+      - keys:
+          - action: shift
+            width: percentage(0.31)
+            swipe:
+              - action: shortCommand(#繁简切换)
+                display: false
+                processByRIME: true
+                direction: up
+              - action: shortCommand(#中英切换)
+                display: false
+                processByRIME: true
+                direction: down
+          - action: none
+            width: percentage(0.02)
+          - action: character(z)
+            width: percentage(0.08)
+            swipe:
+              - action: shortCommand(#RimeSwitcher)
+                display: false
+                processByRIME: true
+                direction: up
+              - action: character(~)
+                display: false
+                processByRIME: true
+                direction: down
+          - action: character(x)
+            width: percentage(0.08)
+            swipe:
+              - action: shortCommand(#剪切)
+                label: 剪切
+                display: false
+                processByRIME: true
+                direction: up
+          - action: character(c)
+            width: percentage(0.08)
+            swipe:
+              - action: shortCommand(#复制)
+                label: 复制
+                display: false
+                processByRIME: true
+                direction: up
+          - action: character(v)
+            width: percentage(0.08)
+            swipe:
+              - action: shortCommand(#粘贴)
+                label: 粘贴
+                display: false
+                processByRIME: true
+                direction: up
+          - action: character(b)
+            width: percentage(0.08)
+            swipe:
+              - action: character({)
+                display: false
+                processByRIME: true
+                direction: up
+              - action: character(})
+                display: false
+                processByRIME: true
+                direction: down
+          - action: character(n)
+            width: percentage(0.08)
+            swipe:
+              - action: character(+)
+                label: ⁺
+                display: false
+                processByRIME: true
+                direction: up
+              - action: character(=)
+                label: ⁼
+                display: false
+                processByRIME: true
+                direction: down
+          - action: character(m)
+            width: percentage(0.08)
+            swipe:
+              - action: shortCommand(#行首)
+                display: true
+                processByRIME: true
+                direction: up
+              - action: shortCommand(#行尾)
+                display: true
+                processByRIME: true
+                direction: down
+              - action: shortCommand(#行首)
+                display: true
+                processByRIME: true
+                direction: left
+              - action: shortCommand(#行尾)
+                display: true
+                processByRIME: true
+                direction: right
+          - action: backspace
+            width: percentage(0.11)
+            swipe:
+              - action: shortCommand(#重输)
+                display: false
+                processByRIME: true
+                direction: up
+              - action: shortCommand(#重输)
+                display: false
+                processByRIME: true
+                direction: down
+          - action: none
+            width: percentage(0.02)
+        rowHeight: 52.4
+      - keys:
+          - action: keyboardType(custom(正九))
+            width: percentage(0.32)
+            label: 符號
+            swipe:
+              - action: keyboardType(classifySymbolic)
+                display: false
+                processByRIME: true
+                direction: up
+              - action: keyboardType(custom(正數))
+                display: false
+                processByRIME: true
+                direction: down
+              - action: keyboardType(custom(正數))
+                display: false
+                processByRIME: true
+                direction: left
+              - action: keyboardType(custom(正符))
+                display: false
+                processByRIME: true
+                direction: right
+          - action: character(？)
+            width: percentage(0.08)
+            label: "?"
+            swipe:
+              - action: character(！)
+                label: ！
+                display: false
+                processByRIME: true
+                direction: up
+              - action: character(！)
+                display: false
+                processByRIME: true
+                direction: down
+          - action: space
+            width: percentage(0.34)
+            label:
+              text: 空格
+              loadingText: ___ 中文 ___
+            swipe:
+              - action: shortCommand(#次选上屏)
+                display: true
+                processByRIME: true
+                direction: up
+              - action: shortCommand(#三选上屏)
+                display: true
+                processByRIME: true
+                direction: down
+              - action: character(。)
+                label: ，
+                display: false
+                processByRIME: true
+                direction: left
+              - action: character(。)
+                label: 。
+                display: false
+                processByRIME: true
+                direction: right
+          - action: character(，)
+            width: percentage(0.08)
+            label: •
+            swipe:
+              - action: character(。)
+                label: ﹐
+                display: false
+                processByRIME: true
+                direction: up
+              - action: character(……)
+                display: false
+                processByRIME: true
+                direction: down
+          - action: enter
+            width: percentage(0.18)
+            label: 回車
+            swipe:
+              - action: shortCommand(#换行)
+                display: false
+                processByRIME: true
+                direction: up
+              - action: shortCommand(#换行)
+                display: false
+                processByRIME: true
+                direction: down
+        rowHeight: 52.4
+    buttonInsets: left(3),bottom(4),top(8),right(3)
