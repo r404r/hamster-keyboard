@@ -5,9 +5,30 @@
 # 工具
 热心网友制作的键盘以及配色编辑工具： [hamster-tools](https://lost-melody.github.io/hamster-tools)
 
-# [仓输入法（Hamster）](https://github.com/imfuxiao/Hamster)
+# 仓输入法（Hamster）
 
-一款基于「[中州韻輸入法引擎／Rime Input Method Engine](https://github.com/rime/librime)」的 iOS 版本输入法.
+[仓输入法（Hamster）](https://github.com/imfuxiao/Hamster) 是一款基于「[中州韻輸入法引擎／Rime Input Method Engine](https://github.com/rime/librime)」的 iOS 版本输入法.
+
+# 一些键盘布局
+下面键盘所用的主题为 **Mac_dark**，配置请参考 “hamster.colorSchemas.yaml”
+
+下述键盘布局，请参考 “keyboards-main.yaml”
+
+- 主中文
+![](images/2023-11-13%2023.14.37.jpg)
+
+
+- 主英文
+![](images/2023-11-13%2023.15.29.jpg)
+
+
+- 主九宫
+![](images/2023-11-13%2023.15.40.jpg)
+
+
+- 主数字
+![](images/2023-11-13%2023.15.35.jpg)
+
 
 # AppStore
 

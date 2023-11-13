@@ -267,3 +267,38 @@ keyboard:
     candidate_text_color: "0x52A3FF"             # ➡ (候选栏次选文字颜色),文字颜色，键盘字符颜色
     #comment_text_color: "0xFFFBFAF9"
 
+    - schemaName: Mac_light
+      name: Mac 浅色
+      author: zHon
+      back_color: "0xD8D3D1"
+      button_back_color: "0x312B29"
+      button_pressed_back_color: "0x252424"
+      button_front_color: "0xD7D2D1"
+      button_pressed_front_color: "0xD7D2D1"
+      button_swipe_front_color: "0xD7D2D1"
+      corner_radius: 10
+      border_color: "0x8CADA9A7"
+      text_color: "0x252424"
+      hilited_candidate_back_color: "0x75B100"
+      hilited_candidate_text_color: "0xFFFFFF"
+      hilited_comment_text_color: "0xFFFFFF"
+      candidate_text_color: "0x252424"
+      comment_text_color: "0x252424"
+
+    - schemaName: Mac_dark
+      name: Mac 深色
+      author: zHon
+      back_color: "0x323232"
+      button_back_color: "0x282423"
+      button_pressed_back_color: "0x282524"
+      button_front_color: "0xD7D2D1"
+      button_pressed_front_color: "0xD7D2D1"
+      button_swipe_front_color: "0xD7D2D1"
+      corner_radius: 10
+      border_color: "0x8C020301"
+      text_color: "0xFFFFFF"
+      hilited_candidate_back_color: "0x75B100"
+      hilited_candidate_text_color: "0xFFFFFF"
+      hilited_comment_text_color: "0xFFFFFF"
+      candidate_text_color: "0xFFFFFF"
+      comment_text_color: "0xFFFFFF"
